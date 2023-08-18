@@ -4,10 +4,10 @@ Proyecto: ANALIZANDO SEÑALES DE ELECTROCARDIOGRAMA (ECG)
 Se buscará desarrollar un sistema en el que se pueda adquirir y procesar señales de un electrocardiograma(ECG)
 
 ## Tabla de contenidos
-    -Participantes
-    -¿Que es una bioseñal?
-    -Contenido del curso
-    -Docentes del curso
+    - Participantes
+    - ¿Que es una bioseñal?
+    - Contenido del curso
+    - Docentes del curso
 
 ## Participantes
 - Nataly Gonzales Palomino (colaborador)- Nataly.Gonzales@upch.pe
