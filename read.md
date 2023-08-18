@@ -5,11 +5,7 @@ Repositorio del grupo 5 del curso Introducción a Señales Biomédicas
 - Piero Miranda-Piero.Miranda@upch.pe
 - Daniel Aquije- Daniel.Aquije@upch.pe
  ## Imagen de los participantes
- <img src = "...imagen\IMG_0199.JPG">
-
-
-
-
+ <img src ="imagen\IMG_0199.JPG">
 
 
 
