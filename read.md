@@ -6,6 +6,7 @@ Se buscará desarrollar un sistema en el que se pueda adquirir y procesar señal
 ## Tabla de contenidos
     - Participantes
     - ¿Que es una bioseñal?
+    - Temática del proyecto
     - Contenido del curso
     - Docentes del curso
 
