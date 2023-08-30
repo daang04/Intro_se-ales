@@ -17,22 +17,22 @@ Generador de señales y osciloscopio digital.
 # Circuito
 Se conecta un cable al pin analógico A1 de Arduino y con otro cable se conecta a tierra (GND). Posteriormente, se conecta la punta del osciloscopio a la salida del pin analógico y luego se conecta el cable de tierra del osciloscopio al Arduino.
 ## Circuito ensamblado 
-
+<img src ="imagen\circuito.png">
 # Ploteo de 3 señales en Arduino IDE provenientes del generador de señales
 ## Señal sinusoidal
-Frecuencia:
+Frecuencia:500mHz
  <img src ="imagen\generador_seno.jpeg">
-Voltaje:
+Voltaje:3.3V
  <img src ="imagen\seno_osciloscopio.jpeg">
-## Señal cuadrada
-Frecuencia:
+##Señal cuadrada
+Frecuencia: 500mHz
 <img src ="imagen\generador_cuadrado.jpeg">
-Voltaje:
+Voltaje:3.3V
 <img src ="imagen\cuadrado_osciloscopio.jpeg">
 ## Señal triangular 
-Frecuencia:
+Frecuencia: 500mHz
 <img src ="imagen\generador_triangular.jpeg">
-Voltaje:
+Voltaje:3.3V
 <img src ="imagen\triangular_osciloscopio.jpeg">
 # Gráficas de señales en Arduino cloud
 ## Señal seno
