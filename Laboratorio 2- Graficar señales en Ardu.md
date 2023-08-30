@@ -35,11 +35,11 @@ Frecuencia:
 Voltaje:
 <img src ="imagen\triangular_osciloscopio.jpeg">
 # Gráficas de señales en Arduino cloud
-## Señal triangular
+## Señal seno
  <img src ="imagen\seno.jpeg">
 ## Señal cuadrada
 <img src ="imagen\cuadrado.jpeg">
-## Señal seno 
+## Señal triangular 
 <img src ="imagen\triangulo.jpeg">
 # Comparar las señales graficadas del Arduino IDE con las gráficas obtenidas del osciloscopio
 # Se puede apreciar ruido al momento de graficar las señales en el Arduino IDE. Para plotear las señales mostradas se aplico el criterio de Niquist al determinar que la frecuencia de muestreo es 2 veces la frecuencia más alta.
