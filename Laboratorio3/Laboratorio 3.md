@@ -52,8 +52,8 @@
     <table>
         <tr>
             <th><div class="column">
-                <p>Señal en reposo </p>
-    <img src="https://github.com/daang04/Intro_se-ales/blob/main/imagen/signal_no_filter.png" alt="Snow" style="width:60%">
+                <p>Señal en actividad </p>
+    <img src="https://github.com/daang04/Intro_se-ales/blob/main/imagen/signal_no_filter.png" alt="Snow" style="width:90%">
  </div></th>                
     </table>
  </p>
@@ -64,8 +64,8 @@
     <table>
         <tr>
             <th><div class="column">
-                <p>Señal en reposo </p>
-    <img src="https://github.com/daang04/Intro_se-ales/blob/main/imagen/signal_filtered.png" alt="Snow" style="width:60%">
+                <p>Señal en actividad </p>
+    <img src="https://github.com/daang04/Intro_se-ales/blob/main/imagen/signal_filtered.png" alt="Snow" style="width:90%">
  </div></th>                
     </table>
  </p>
