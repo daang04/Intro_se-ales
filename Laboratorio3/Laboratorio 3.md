@@ -15,16 +15,13 @@
 - Hacer una correcta configuración de BITalino. 
 - Extraer la información de las señales EMG y ECG del software OpenSignals (r)evolution.
 ## Materiales utilizados
-<p>
-    <table>
-        <tr>
-            <th>1 cable de 2 hilos</th>
-            <th>1 cable de 3 hilos</th>
-            <th>5 electrodos</th>
-            <th>1 bateria</th>
-            <th>1 BITalino
-    </table>
-        </p>
+- 1 cable de 2 hilos
+- 1 cable de 3 hilos
+- 5 electrodos
+- 1 bateria
+- 1 BITalino
+
+Aqui colocas la imagen y luego borras esta linea
 <p align="center">
   <img width="200" height="300" src="">
 </p>
@@ -40,7 +37,8 @@
 - Detección de enfermedades neuromusculares
 
 ## OpenSignals
-### Conexiones usadas
+### Musculos a analizar y conexiones realizadas
+Lo mismo, solo colocas la imagen dentro de los "" donde dice " src="" "
 <p>
     <table>
         <tr>
@@ -62,7 +60,7 @@
                 <p>Señal en reposo </p>
     <img src="" alt="Snow" style="width:60%">
   </div></th>
-            <th><div class="column">
+            <th><div class="row">
                 <p>Video </p>
                 <p>Link:  </p>
     </table>
@@ -71,11 +69,11 @@
  <p>
     <table>
         <tr>
-            <th><div class="column">
+            <th><div class="row">
                 <p>Señal a un esfuerzo moderado </p>
     <img src="" alt="Snow" style="width:60%">
   </div></th>
-            <th><div class="column">
+            <th><div class="row">
                 <p>Video </p>
                 <p> Link:  </p>
     </table>
@@ -84,11 +82,11 @@
  <p>
     <table>
         <tr>
-            <th><div class="column">
+            <th><div class="row">
                 <p>Señal a un esfuerzo fuerte </p>
     <img src="" alt="Snow" style="width:60%">
   </div></th>
-            <th><div class="column">
+            <th><div class="row">
                 <p>Video </p>
                 <p> Link:  </p>
     </table>
