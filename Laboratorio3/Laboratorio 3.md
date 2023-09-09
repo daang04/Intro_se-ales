@@ -59,11 +59,6 @@ Lo mismo, solo colocas la imagen dentro de los "" donde dice " src="" "
             <th><div class="column">
                 <p>Señal en reposo </p>
     <img src="" alt="Snow" style="width:60%">
-  </div></th>
-            <th><div class="row">
-                <p>Video </p>
-                <p>Link:  </p>
-    </table>
  </p>
         
  <p>
@@ -72,11 +67,6 @@ Lo mismo, solo colocas la imagen dentro de los "" donde dice " src="" "
             <th><div class="row">
                 <p>Señal a un esfuerzo moderado </p>
     <img src="" alt="Snow" style="width:60%">
-  </div></th>
-            <th><div class="row">
-                <p>Video </p>
-                <p> Link:  </p>
-    </table>
  </p>
  
  <p>
@@ -85,10 +75,6 @@ Lo mismo, solo colocas la imagen dentro de los "" donde dice " src="" "
             <th><div class="row">
                 <p>Señal a un esfuerzo fuerte </p>
     <img src="" alt="Snow" style="width:60%">
-  </div></th>
-            <th><div class="row">
-                <p>Video </p>
-                <p> Link:  </p>
     </table>
  </p>
 
