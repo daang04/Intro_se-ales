@@ -64,7 +64,7 @@ Lo mismo, solo colocas la imagen dentro de los "" donde dice " src="" "
  <p>
     <table>
         <tr>
-            <th><div class="row">
+            <th><div class="column">
                 <p>Señal a un esfuerzo moderado </p>
     <img src="" alt="Snow" style="width:60%">
  </p>
@@ -72,7 +72,7 @@ Lo mismo, solo colocas la imagen dentro de los "" donde dice " src="" "
  <p>
     <table>
         <tr>
-            <th><div class="row">
+            <th><div class="column">
                 <p>Señal a un esfuerzo fuerte </p>
     <img src="" alt="Snow" style="width:60%">
     </table>
