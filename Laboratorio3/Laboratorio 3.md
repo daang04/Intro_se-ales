@@ -44,7 +44,7 @@ Lo mismo, solo colocas la imagen dentro de los "" donde dice " src="" "
         <tr>
             <th><div class="column">
                 <p>BITalino-Cables</p>
-    <img src="https://github.com/daang04/Intro_se-ales/blob/main/imagen/signal_no_filter.png" alt="Snow" style="width:40%">
+    <img src="https://github.com/daang04/Intro_se-ales/blob/main/imagen/body_posic.png" alt="Snow" style="width:40%">
   </div></th>
             <th><div class="column">
                 <p>Electrodo-Cuerpo </p>
@@ -63,26 +63,6 @@ Lo mismo, solo colocas la imagen dentro de los "" donde dice " src="" "
     </table>
  </p>
         
- <p>
-    <table>
-        <tr>
-            <th><div class="column">
-                <p>Señal a un esfuerzo moderado </p>
-    <img src="" alt="Snow" style="width:60%">
-  </div></th>                
-    </table>
- </p>
- 
- <p>
-    <table>
-        <tr>
-            <th><div class="column">
-                <p>Señal a un esfuerzo fuerte </p>
-    <img src="" alt="Snow" style="width:60%">
- </div></th>                
-    </table>
- </p>
-
 ## Ploteo de señales con procesamiento en Python
 
 <p align="center">
