@@ -42,7 +42,7 @@
         <tr>
             <th><div class="column">
                 <p>BITalino-Cables</p>
-    <img src="https://github.com/daang04/Intro_se-ales/blob/main/imagen/body_posic.png" alt="Snow" style="width:40%">
+    <img src="https://github.com/daang04/Intro_se-ales/blob/main/imagen/body_posic.png" alt="Snow" style="width:70%">
  </div></th>                
     </table>
  </p>
