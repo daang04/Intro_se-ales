@@ -60,27 +60,16 @@
         
 ## Ploteo de señales con procesamiento en Python
 
-<p align="center">
-  <img width="500" height="600" src="">
-</p>
-
-<p align="center">
-  <img width="500" height="600" src="">
-</p>
-
-
-<p align="center">
-  <img width="500" height="600" src="">
-</p>
-
-
-<p align="center">
-  <img width="500" height="600" src="">
-</p>
-
-<p align="center">
-  <img width="500" height="600" src="">
-</p>
+ <p>
+    <table>
+        <tr>
+            <th><div class="column">
+                <p>Señal en reposo </p>
+    <img src="https://github.com/daang04/Intro_se-ales/blob/main/imagen/signal_filtered.png" alt="Snow" style="width:60%">
+ </div></th>                
+    </table>
+ </p>
+      
 
 ## Explicación y resumen del procedimiento y resultados:
 Se llevó a cabo un experimento que consistió en recopilar y evaluar el movimiento del grupo muscular de los bíceps utilizando el dispositivo BitAlino y tres electrodos. Este estudio se centró en pruebas electromiográficas. Según los resultados obtenidos a través de la representación gráfica en "OpenSignals", se pueden extraer las siguientes conclusiones:
