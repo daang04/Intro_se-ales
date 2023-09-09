@@ -73,7 +73,7 @@
 
 ## Explicación y resumen del procedimiento y resultados:
 
-<video src="https://user-images.githubusercontent.com/126239/151127893-5c98ba8d-c431-4a25-bb1f-e0b33645a2b6.mp4"></video>
+<video src="https://github.com/daang04/Intro_se-ales/blob/main/imagen/video_test_1.mp4"></video>
 
 Se llevó a cabo un experimento que consistió en recopilar y evaluar el movimiento del grupo muscular de los bíceps utilizando el dispositivo BitAlino y tres electrodos. Este estudio se centró en pruebas electromiográficas. Según los resultados obtenidos a través de la representación gráfica en "OpenSignals", se pueden extraer las siguientes conclusiones:
 - En la fase inicial, se observa una señal en estado de reposo, donde no hay activación muscular y las fibras musculares se encuentran en un estado de inactividad. La información visualizada en esta etapa puede contener interferencias, posiblemente causadas por una conexión incorrecta de los electrodos u otras fuentes de error.
