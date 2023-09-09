@@ -22,7 +22,7 @@
 - 1 BITalino
 
 <p align="center">
-  <img width="200" height="300" src="">
+  <img width="200" height="300" src="https://github.com/daang04/Intro_se-ales/blob/main/imagen/material.png">
 </p>
 
 ## Electromiografía
