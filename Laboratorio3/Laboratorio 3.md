@@ -44,7 +44,7 @@ Lo mismo, solo colocas la imagen dentro de los "" donde dice " src="" "
         <tr>
             <th><div class="column">
                 <p>BITalino-Cables</p>
-    <img src="imagen/signal_filtered.png" alt="Snow" style="width:40%">
+    <img src="https://raw.githubusercontent.com/pmirandal/Intro_se-ales/main/imagen/signal_filtered.png" alt="Snow" style="width:40%">
   </div></th>
             <th><div class="column">
                 <p>Electrodo-Cuerpo </p>
