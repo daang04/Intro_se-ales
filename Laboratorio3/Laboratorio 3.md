@@ -38,7 +38,6 @@ Aqui colocas la imagen y luego borras esta linea
 
 ## OpenSignals
 ### Musculos a analizar y conexiones realizadas
-Lo mismo, solo colocas la imagen dentro de los "" donde dice " src="" "
 <p>
     <table>
         <tr>
@@ -46,7 +45,8 @@ Lo mismo, solo colocas la imagen dentro de los "" donde dice " src="" "
                 <p>BITalino-Cables</p>
     <img src="https://github.com/daang04/Intro_se-ales/blob/main/imagen/body_posic.png" alt="Snow" style="width:40%">
   </div></th>
-
+ <p>
+     
 ### Ploteo de la señal usada en OpenSignals
  <p>
     <table>
