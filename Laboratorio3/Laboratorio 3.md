@@ -11,9 +11,9 @@
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------    
  
 ## Objetivos del Laboratorio
-- Adquirir señales biomédicas de EMG y ECG.
-- Hacer una correcta configuración de BITalino. 
-- Extraer la información de las señales EMG y ECG del software OpenSignals (r)evolution.
+- Adquirir señales biomédicas de EMG.
+- Realizar una configuración adecuada con el modulo BITalino. 
+- Obtener la información de las señales EMG del software OpenSignals (r)evolution.
 ## Materiales utilizados
 - 1 cable de 2 hilos
 - 1 cable de 3 hilos
