@@ -21,7 +21,6 @@
 - 1 bateria
 - 1 BITalino
 
-Aqui colocas la imagen y luego borras esta linea
 <p align="center">
   <img width="200" height="300" src="">
 </p>
@@ -44,8 +43,9 @@ Aqui colocas la imagen y luego borras esta linea
             <th><div class="column">
                 <p>BITalino-Cables</p>
     <img src="https://github.com/daang04/Intro_se-ales/blob/main/imagen/body_posic.png" alt="Snow" style="width:40%">
-  </div></th>
- <p>
+ </div></th>                
+    </table>
+ </p>
      
 ### Ploteo de la señal usada en OpenSignals
  <p>
