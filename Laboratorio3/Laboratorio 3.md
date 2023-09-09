@@ -58,7 +58,7 @@ Lo mismo, solo colocas la imagen dentro de los "" donde dice " src="" "
         <tr>
             <th><div class="column">
                 <p>Señal en reposo </p>
-    <img src="" alt="Snow" style="width:60%">
+    <img src="https://github.com/daang04/Intro_se-ales/blob/main/imagen/signal_no_filter.png" alt="Snow" style="width:60%">
  </div></th>                
     </table>
  </p>
