@@ -83,7 +83,7 @@ Lo mismo, solo colocas la imagen dentro de los "" donde dice " src="" "
     </table>
  </p>
 
-## Ploteo de señales en Python
+## Ploteo de señales con procesamiento en Python
 
 <p align="center">
   <img width="500" height="600" src="">
