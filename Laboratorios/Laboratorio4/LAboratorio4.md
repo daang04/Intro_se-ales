@@ -116,6 +116,15 @@ En este punto hubieron fallas con la computadora que estuvo grabando la señal, 
 2. Simulación de Fluke Biomedical-Prosim 4 en modo ¨Exercise¨
 ![Alt text](cardiac_ejercicio_fft.png)
 
+## Conclusiones y limitaciones
+* El electrocardiograma brinda información sobre el comportamiento del corazón cuando la persona se encuentra en reposo con una respiración normal (señal de referencia), luego cuando realiza una serie de respiraciones (manteniendo la respiración por 30 segundos) y finalmente, después de haber realizado actividad física (trotar a diferentes velocidades). Asimismo, se observó en las gráficas la variación del electrocardiograma en función a la actividad respiratoria de la persona.
+
+* Se logró identificaron las diferencias y obtener los patrones de la frecuencia cardiaca utilizando el módulo de BITalino y el software de Python. 
+
+* La comparación de la señal obtenida mediante la señal patrón del dispositivo Fluke-ProSim 4 muestran resultados similares en cuanto al modo Exercise y la prueba de actividad física.
+
+* La principal limitación está relacionada al ambiente de pruebas, ya que al ser en un salón se obtuvo bastante ruido de por medio. Para evitar ello, se recomienda realizar las pruebas en un ambiente controlado y con un protocolo estándar para obtener resultados sólidos.
+
 ## Bibliografia
 - [1]Smit, D., de Cock, C. C., Thijs, A., & Smulders, Y. M. (2009). Effects of breath-holding position on the QRS amplitudes in the routine electrocardiogram. Journal of electrocardiology, 42(5), 400–404. https://doi.org/10.1016/j.jelectrocard.2009.04.006
 - [2]Simoons, M. L., & Hugenholtz, P. G. (1975). Gradual changes of ECG waveform during and after exercise in normal subjects. Circulation, 52(4), 570–577. https://doi.org/10.1161/01.cir.52.4.570
