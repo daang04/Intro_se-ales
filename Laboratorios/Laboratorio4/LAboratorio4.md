@@ -4,9 +4,23 @@
 2. 
 3. 
 ## Introducción
+Un electrocardiograma, comúnmente conocido como ECG o EKG, es una prueba médica no invasiva que registra la actividad eléctrica del corazón a lo largo del tiempo. Este examen utiliza electrodos colocados en la piel del paciente para detectar y graficar las señales eléctricas generadas por el corazón durante cada latido. El resultado es un trazado gráfico que muestra la ritmicidad y la función eléctrica del corazón, lo que ayuda a los médicos a diagnosticar trastornos cardíacos, como arritmias, infartos y otros problemas relacionados con la actividad cardíaca.
+
 ## Objetivos
+- Obtener una señal ECG empleando tres electrodos
+- Evaluar la diferencia en la señales ECG en reposo y en actividad 
+- Identificar las partes características de una señal ECG con un equipo patron
 ## Materiales y equipos
+Se emplearán los siguientes componentes:
+- Bitalino, hardware en conjunto con software Opensignals
+- 3 electrodos convencionales
+- Equipo simulador Fluke ProSim4
 ## Procedimiento
+1. Inicializar software y configurar bitalino
+2. Posicionar los electrodos en el cuerpo del paciente
+3. Verificar las mediciones y preparan para postprocesamiento
+4. Repetir el proceso colocando las derivaciones en el equipo Prosim
+5. Procesar las señales para identificar la señal ECG
 ## Resultados
 ## Ploteo de las señales
 1. Estado en reposo
