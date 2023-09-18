@@ -130,7 +130,7 @@ En este punto hubieron fallas con la computadora que estuvo grabando la señal, 
 
 * La principal limitación está relacionada al ambiente de pruebas, ya que al ser en un salón se obtuvo bastante ruido de por medio. Para evitar ello, se recomienda realizar las pruebas en un ambiente controlado y con un protocolo estándar para obtener resultados sólidos.
 
-* Otra de las limitaciones que influyeron en los resultados es que los cables del módulo BITalino y los electrodos a veces se despegaban debido al movimiento al realizar la actividad física, por lo que no se adquiría completamente los datos del electrocardiograma. Se recomienda utilizar unos cables más largos y utilizar el pocket del módulo para mayor comodidad del participante y obtener mejores resultados.
+* Otra de las limitaciones que influyeron en los resultados es que los cables del módulo BITalino y los electrodos a veces se despegaban debido al movimiento al realizar la actividad física, por lo que no se adquiría completamente los datos de la actividad cardiaca. Se recomienda utilizar unos cables más largos y utilizar el pocket del módulo para mayor comodidad del participante y obtener mejores resultados.
 
 ## Bibliografia
 - [1]Smit, D., de Cock, C. C., Thijs, A., & Smulders, Y. M. (2009). Effects of breath-holding position on the QRS amplitudes in the routine electrocardiogram. Journal of electrocardiology, 42(5), 400–404. https://doi.org/10.1016/j.jelectrocard.2009.04.006
