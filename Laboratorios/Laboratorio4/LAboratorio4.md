@@ -62,10 +62,11 @@ Como se menciono en el efecto de aguantar la respiración sobre el ECG, ocurre l
 - Para el segundo usuario:
 En este punto hubieron fallas con la computadora que estuvo grabando la señal, por lo que, no se grabaron adecuadamente.
 
-4. Simulación de Fluke Biomedical-Prosim 4 en modo ¨Cardiac arrest¨
+### Simulador
+1. Simulación de Fluke Biomedical-Prosim 4 en modo ¨Cardiac arrest¨
 ![Alt text](arrestcardiac_tiempo.png)
 
-5. Simulación de Fluke Biomedical-Prosim 4 en modo ¨Exercise¨
+2. Simulación de Fluke Biomedical-Prosim 4 en modo ¨Exercise¨
 ![Alt text](cardiac_ejercicio_tiempo.png)
 
 ## Analísis en decibeles de las señales
@@ -84,11 +85,12 @@ En este punto hubieron fallas con la computadora que estuvo grabando la señal, 
 ![Alt text](../../imagen/FFT_daniel_esfuerzo.png)
 - Para el segundo usuario:
 En este punto hubieron fallas con la computadora que estuvo grabando la señal, por lo que, no se grabaron adecuadamente.
-
-4. Simulación de Fluke Biomedical-Prosim 4 en modo ¨Cardiac arrest¨
+### Simulador
+1. Simulación de Fluke Biomedical-Prosim 4 
+modo ¨Cardiac arrest¨
 ![Alt text](arrestcardiac_frecuencia.png)
 
-5. Simulación de Fluke Biomedical-Prosim 4 en modo ¨Exercise¨
+2. Simulación de Fluke Biomedical-Prosim 4 en modo ¨Exercise¨
 ![Alt text](cardiac_ejercicio_frecuencia.png)
 
 ## Respuesta en frecuencia de las señales
@@ -107,11 +109,11 @@ En este punto hubieron fallas con la computadora que estuvo grabando la señal, 
 ![Alt text](../../imagen/danielfft_agitado.png)
 - Para el segundo usuario
 En este punto hubieron fallas con la computadora que estuvo grabando la señal, por lo que, no se grabaron adecuadamente.
-
-4. Simulación de Fluke Biomedical-Prosim 4 en modo ¨Cardiac arrest¨
+### Simulador
+1. Simulación de Fluke Biomedical-Prosim 4 en modo ¨Cardiac arrest¨
 ![Alt text](arrestcardiac_fft.png)
 
-5. Simulación de Fluke Biomedical-Prosim 4 en modo ¨Exercise¨
+2. Simulación de Fluke Biomedical-Prosim 4 en modo ¨Exercise¨
 ![Alt text](cardiac_ejercicio_fft.png)
 
 ## Bibliografia
