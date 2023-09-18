@@ -53,6 +53,7 @@ Las modificaciones más frecuentes que se observan en un ECG cuando se retiene l
 - Para el primer usuario:
 ![Alt text](../../imagen/daniel_respiracion.png)
 - Para el segundo usuario:
+![Alt text](p2_tiempo.png)
 
 3. Después de una actividad física
 Como se menciono en el efecto de aguantar la respiración sobre el ECG, ocurre lo mismo después de realizar actividad física y tendrá los mismos efectos mencionados. [2]
@@ -60,6 +61,13 @@ Como se menciono en el efecto de aguantar la respiración sobre el ECG, ocurre l
 ![Alt text](../../imagen/daniel_esfuerzo.png)
 - Para el segundo usuario:
 En este punto hubieron fallas con la computadora que estuvo grabando la señal, por lo que, no se grabaron adecuadamente.
+
+4. Simulación de Fluke Biomedical-Prosim 4 en modo ¨Cardiac arrest¨
+![Alt text](arrestcardiac_tiempo.png)
+
+5. Simulación de Fluke Biomedical-Prosim 4 en modo ¨Exercise¨
+![Alt text](cardiac_ejercicio_tiempo.png)
+
 ## Analísis en decibeles de las señales
 1. Estado en reposo
 - Para el primer usuario:
@@ -70,15 +78,22 @@ En este punto hubieron fallas con la computadora que estuvo grabando la señal, 
 - Para el primer usuario:
 ![Alt text](../../imagen/FFT_daniel_respiracion.png)
 - Para el segundo usuario:
-En este punto hubieron fallas con la computadora que estuvo grabando la señal, por lo que, no se grabaron adecuadamente.
+![Alt text](p2_frecuencia.png)
 3. Después de una actividad física:
 - Para el primer usuario:
 ![Alt text](../../imagen/FFT_daniel_esfuerzo.png)
 - Para el segundo usuario:
 En este punto hubieron fallas con la computadora que estuvo grabando la señal, por lo que, no se grabaron adecuadamente.
+
+4. Simulación de Fluke Biomedical-Prosim 4 en modo ¨Cardiac arrest¨
+![Alt text](arrestcardiac_frecuencia.png)
+
+5. Simulación de Fluke Biomedical-Prosim 4 en modo ¨Exercise¨
+![Alt text](cardiac_ejercicio_frecuencia.png)
+
 ## Respuesta en frecuencia de las señales
 1. Estado en reposo:
-- Para el primer usuario
+- Para el primer usuario:
 En este punto hubieron fallas con la computadora que estuvo grabando la señal, por lo que, no se grabaron adecuadamente.
 - Para el segundo usuario
 ![Alt text](<../../imagen/piero reposo fft.png>)
@@ -86,11 +101,19 @@ En este punto hubieron fallas con la computadora que estuvo grabando la señal, 
 - Para el primer usuario
 ![Alt text](../../imagen/danielrespiracionfft.png)
 - Para el segundo usuario
+![Alt text](p2_fft.png)
 3. Después de una actividad física:
 - Para el primer usuario
 ![Alt text](../../imagen/danielfft_agitado.png)
 - Para el segundo usuario
 En este punto hubieron fallas con la computadora que estuvo grabando la señal, por lo que, no se grabaron adecuadamente.
+
+4. Simulación de Fluke Biomedical-Prosim 4 en modo ¨Cardiac arrest¨
+![Alt text](arrestcardiac_fft.png)
+
+5. Simulación de Fluke Biomedical-Prosim 4 en modo ¨Exercise¨
+![Alt text](cardiac_ejercicio_fft.png)
+
 ## Bibliografia
 - [1]Smit, D., de Cock, C. C., Thijs, A., & Smulders, Y. M. (2009). Effects of breath-holding position on the QRS amplitudes in the routine electrocardiogram. Journal of electrocardiology, 42(5), 400–404. https://doi.org/10.1016/j.jelectrocard.2009.04.006
 - [2]Simoons, M. L., & Hugenholtz, P. G. (1975). Gradual changes of ECG waveform during and after exercise in normal subjects. Circulation, 52(4), 570–577. https://doi.org/10.1161/01.cir.52.4.570
