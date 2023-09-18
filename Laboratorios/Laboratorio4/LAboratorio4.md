@@ -5,6 +5,7 @@
 3. 
 ## Introducción
 Un electrocardiograma, comúnmente conocido como ECG o EKG, es una prueba médica no invasiva que registra la actividad eléctrica del corazón a lo largo del tiempo. Este examen utiliza electrodos colocados en la piel del paciente para detectar y graficar las señales eléctricas generadas por el corazón durante cada latido. El resultado es un trazado gráfico que muestra la ritmicidad y la función eléctrica del corazón, lo que ayuda a los médicos a diagnosticar trastornos cardíacos, como arritmias, infartos y otros problemas relacionados con la actividad cardíaca.
+Tres electrodos permitirán registrar una sola derivación, generalmente conocida como “derivación unipolar”. Aunque esto puede brindar información básica sobre la actividad eléctrica del corazón, es importante destacar que un ECG de 3 electrodos es menos preciso para detectar ciertos trastornos cardíacos en comparación con un ECG de 12 derivaciones, que proporciona una imagen más completa del funcionamiento cardíaco. Por lo tanto, es recomendable utilizar un ECG de 12 derivaciones cuando sea posible para obtener un diagnóstico más completo y preciso.
 
 ## Objetivos
 - Obtener una señal ECG empleando tres electrodos
