@@ -1,12 +1,12 @@
 # Laboratorio 5 - Adquisición de señales de ECG
 
 ## Tabla de contenido
-- [Introducción](#introduccion)
-- [Materiales](#materiales)
-- [Metodología](#metodologia)
-- [Resultados y discusión](#resultados)
-- [Conclusiones](#conclusiones) 
-- [Bibliografía](#bibliografia)
+- [Introducción](#Introducción al laboratorio )
+- [Materiales](#Materiales)
+- [Metodología](#Metodología)
+- [Resultados y discusión](#Resultadosydiscusión)
+- [Conclusiones](#Conclusiones) 
+- [Bibliografía](#Bibliografía)
 
 ## Introducción al laboratorio 
 El presente laboratorio consiste en el uso del encefalograma (ECG) para adquirir y analizar las respuestas electricas del cerebro de los participantes. Esto se realizo mediante el uso del módulo Bitalino y el Ultracortex MarK IV. EL EEG son señales producidas por la actividad sinaptica de las neuronas y sirve para diferentes actividades entre las que destacan son el diagnositco de tumores cerebrales, encefalitis herpética, ACV, daños cerebrales por contusiones, encefalopatia y epilepsia.
