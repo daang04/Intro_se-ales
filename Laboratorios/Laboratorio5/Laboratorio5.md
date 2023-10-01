@@ -1,7 +1,7 @@
 # Laboratorio 5 - Adquisición de señales de ECG
 
 ## Tabla de contenido
-- [Introducción](#Introducción al laboratorio )
+- [Introducción](#Introducción_al_laboratorio )
 - [Materiales](#Materiales)
 - [Metodología](#Metodología)
 - [Resultados y discusión](#Resultadosydiscusión)
