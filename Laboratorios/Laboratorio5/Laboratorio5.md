@@ -56,12 +56,14 @@ Posteriormente, las señales se adquirieron siguiendo el siguiente protocolo:
 1. **Estado basal**
 En el estado basal se observa que la señal obtenida se mantiene constante a lo largo del tiempo. Esto se debe a que la persona se encuentra en sentada en reposo con los ojos cerrados durante 30 segundos. Asimismo, se observa que hay 1 pico de onda cuadrada, el cual representa el cierre de los ojos.
 ![Alt text](<Imagenes/BITalino/Estado basal/1 Abrir-cerrar_EEG tiempo.png>)
-<video src="Videos/Estado%20basal.mp4" controls title="Title"></video>
+
+    <video src="Videos/Estado%20basal.mp4" controls title="Title"></video>
 
 2. **Abrir y cerrar ojos**
 En el gráfico se observa que la señal presenta un primer tramo con varios picos de ondas cuadradas, esto se debe a que la persona parpadeaba mientras veía el punto fijo de color rojo. En el segundo tramo se observan que la señal se mantiene constante y hay 2 picos de ondas cuadradas, el primero de ellos representa el cierre de los parpados y el segundo pico representa la apertura de los ojos.
 ![Alt text](<Imagenes/BITalino/Estado basal/1 Basal_cerrado-abierto.png>)
-<video src="Videos/Abrir_cerrar.mp4" controls title="Title"></video>
+
+    <video src="Videos/Abrir_cerrar.mp4" controls title="Title"></video>
 
 3. **Preguntas simples y complejas**
 
