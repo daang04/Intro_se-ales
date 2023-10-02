@@ -85,7 +85,8 @@ En el estado basal se observa que la señal obtenida se mantiene constante a lo 
 ## Conclusiones
 - Se pudo observar la actividad cerebral que implica realizar un calculo mental, sobre todo, cuando hay picos grandes de milivoltios en el EEG.
 - Las ondas gama y beta son las que se necesitan observar y comparar cuando se realizan calculos mentales de alto y baja nivel de complejidad.
--  El uso del módulo Bitalino para registrar señales EEG proporciona una herramienta valiosa para comprender la actividad cerebral en diferentes estados y condiciones. Los hallazgos resaltan la capacidad de este sistema para detectar cambios en la actividad cerebral asociados con la apertura, cierre de los ojos y el parpadear. Estos resultados pueden ser de interés en investigaciones para analizar el funcionamiento del cerebro en diversas situaciones y frente a ciertos estímulos visuales.
+- Se notó que las señales EEG adquiridas del UltraCortex eran inusuales o atípicas en su forma, lo que sugiere que podrían haber estado afectadas por varios factores, como interferencias eléctricas, envio de datos por via inalambrica o  mala adherencia del dispositivo con el sujeto. Esta rareza en las señales contribuyó a la dificultad para obtener información útil del Ultracortex.
+- El uso del módulo Bitalino para registrar señales EEG proporciona una herramienta valiosa para comprender la actividad cerebral en diferentes estados y condiciones. Los hallazgos resaltan la capacidad de este sistema para detectar cambios en la actividad cerebral asociados con la apertura, cierre de los ojos y el parpadear. Estos resultados pueden ser de interés en investigaciones para analizar el funcionamiento del cerebro en diversas situaciones y frente a ciertos estímulos visuales.
 ## Bibliografía
 
 - [1]Electroencefalografía. Garza N(Ed.), (2015). Manual de laboratorio de fisiología, 6e. McGraw Hill. https://accessmedicina.mhmedical.com/content.aspx?bookid=1722&sectionid=116884120
