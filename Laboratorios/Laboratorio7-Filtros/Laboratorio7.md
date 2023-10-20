@@ -40,24 +40,20 @@ En este laboratorio se realizará un filtrado del ruido causado por la corriente
 ## Filtro IIR
 - EMG: Se utilizo un frecuencia de muestreo de 1000 Hz, en función a esto se calculo las frecuencias correspondientes en radianes, estas frecuencias fueron calculadas en base a los requerimientos de nuestras señales. Dado a que se este tipo de señales operan en frecuencias bajas se optan por eliminar todas las frecuencias correspondientes a altas frecuecnias que puedan influir de manera significativa en la obtención y y visualización de los datos.
 
-| Señal original EMG|![Alt text](<Imágenes/Tipos de filtro/EMG_original_FIR.png>)  | 
+| Señal original EMG|![Alt text](<Imágenes/Tipos de filtro/IIR imagenes/IIR EMG sin procesar.png>)  | 
 |----------|----------|
-| FIR usando ventana Hamming | ![Alt text](<Imágenes/Tipos de filtro/FIR_hamm_EMG.png>)| 
-| FIR usando ventana Hanning | ![Alt text](<Imágenes/Tipos de filtro/FIR_hann_EMG.png>)  |
+| Señal procesada usando Butterworth | ![Alt text](<Imágenes/Tipos de filtro/IIR EMG procesada.png>)| 
 
 - ECG: Se utilizo una frecuencia de muestreo de 1000 Hz, ya que las frecuencias del ECG van hasta 100 Hz, entonces, para cumplir nyquist se eligio esa frecuencia.
 
-| Señal original ECG|![Alt text](<Imágenes/Tipos de filtro/ECG.png>)
+| Señal original ECG|![Alt text](<Imágenes/Tipos de filtro/IIR imagenes/IIR ECG sin procesar.png>)
 |----------|----------|
-| FIR usando ventana Hamming | ![Alt text](<Imágenes/Tipos de filtro/FIR_hamm_ECG.png>)
-| FIR usando ventana Hanning | ![Alt text](<Imágenes/Tipos de filtro/FIR_hann_ECG.png>)
-
+| Señal procesada usando Butterworth  | ![Alt text](<Imágenes/Tipos de filtro/IIR imagenes/IIR ECG procesada.png>)
 - EEG: Las frecuencias que registra el EEG se dividen en los ritmos alfa, beta, theta y delta. Donde la mayor frecuencia es 60 Hz y para cumplir el criterio de Nyquist se empleo una frecuencia de muestreo de 1000 Hz.
 
-| Señal original EEG|![Alt text](<Imágenes/Tipos de filtro/EEG.png>)
+| Señal original EEG|![Alt text](<Imágenes/Tipos de filtro/IIR imagenes/IIR EEG sin procesar.png>)
 |----------|----------|
-| FIR usando ventana Hamming | ![Alt text](<Imágenes/Tipos de filtro/FIR_hamm_EEG.png>)
-| FIR usando ventana Hanning | ![Alt text](<Imágenes/Tipos de filtro/FIR_hann_EEG.png>)
+| Señal procesada usando Butterworth | ![Alt text](<Imágenes/Tipos de filtro/IIR imagenes/IIR EEG procesada.png>)
 
 ## Filtro FIR
 - EMG: Se utilizo un frecuencia de muestreo de 1000 Hz, en función a esto se calculo el equivalente de 50 Hz y 150 Hz en radianes, las cuales forman el intervalo donde se encuentran las freuencias del EMG. Esto indica que será un filtro pasabandas.
