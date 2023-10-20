@@ -37,6 +37,28 @@ En este laboratorio se realizará un filtrado del ruido causado por la corriente
 - Para el desarrollo de un filtro FIR, se utilizo el método de muestreo de ventana (window sampling). Este enfoque implica la selección de una ventana específica, como la ventana de Hamming, Blackman, Hanning, entre otros. Las ventanas determinan la forma en que se ponderan los coeficientes del filtro en el dominio del tiempo. La elección de la ventana depende de los requisitos del filtro y los objetivos del diseño. Luego, se determinan los números de muestras del filtro en función de la resolución en frecuencia y la atenuación necesaria en las bandas de paso y de rechazo. Sin embargo, para este caso se priorizo con que ventana se utilizaba menor poder computacional para elegir el tipo de ventana, por lo que, si se obtiene un menor número de muestra se empleaba esa ventana. Una vez definidos estos parámetros, se calculan los coeficientes del filtro utilizando una función como scipy.signal.firwin en Python, y se aplica la ventana elegida a estos coeficientes.
   El resultado es un filtro FIR que cumple con las especificaciones deseadas, y su respuesta en frecuencia está influenciada por la forma de la ventana seleccionada.
 # Resultados y discusión
+## Filtro IIR
+- EMG: Se utilizo un frecuencia de muestreo de 1000 Hz, en función a esto se calculo las frecuencias correspondientes en radianes, estas frecuencias fueron calculadas en base a los requerimientos de nuestras señales. Dado a que se este tipo de señales operan en frecuencias bajas se optan por eliminar todas las frecuencias correspondientes a altas frecuecnias que puedan influir de manera significativa en la obtención y y visualización de los datos.
+
+| Señal original EMG|![Alt text](<Imágenes/Tipos de filtro/EMG_original_FIR.png>)  | 
+|----------|----------|
+| FIR usando ventana Hamming | ![Alt text](<Imágenes/Tipos de filtro/FIR_hamm_EMG.png>)| 
+| FIR usando ventana Hanning | ![Alt text](<Imágenes/Tipos de filtro/FIR_hann_EMG.png>)  |
+
+- ECG: Se utilizo una frecuencia de muestreo de 1000 Hz, ya que las frecuencias del ECG van hasta 100 Hz, entonces, para cumplir nyquist se eligio esa frecuencia.
+
+| Señal original ECG|![Alt text](<Imágenes/Tipos de filtro/ECG.png>)
+|----------|----------|
+| FIR usando ventana Hamming | ![Alt text](<Imágenes/Tipos de filtro/FIR_hamm_ECG.png>)
+| FIR usando ventana Hanning | ![Alt text](<Imágenes/Tipos de filtro/FIR_hann_ECG.png>)
+
+- EEG: Las frecuencias que registra el EEG se dividen en los ritmos alfa, beta, theta y delta. Donde la mayor frecuencia es 60 Hz y para cumplir el criterio de Nyquist se empleo una frecuencia de muestreo de 1000 Hz.
+
+| Señal original EEG|![Alt text](<Imágenes/Tipos de filtro/EEG.png>)
+|----------|----------|
+| FIR usando ventana Hamming | ![Alt text](<Imágenes/Tipos de filtro/FIR_hamm_EEG.png>)
+| FIR usando ventana Hanning | ![Alt text](<Imágenes/Tipos de filtro/FIR_hann_EEG.png>)
+
 ## Filtro FIR
 - EMG: Se utilizo un frecuencia de muestreo de 1000 Hz, en función a esto se calculo el equivalente de 50 Hz y 150 Hz en radianes, las cuales forman el intervalo donde se encuentran las freuencias del EMG. Esto indica que será un filtro pasabandas.
 
@@ -59,7 +81,7 @@ En este laboratorio se realizará un filtrado del ruido causado por la corriente
 | FIR usando ventana Hamming | ![Alt text](<Imágenes/Tipos de filtro/FIR_hamm_EEG.png>)
 | FIR usando ventana Hanning | ![Alt text](<Imágenes/Tipos de filtro/FIR_hann_EEG.png>)
 
-## FIltro IIR
+## Wavelet
 # Conclusiones
 1. Los filtros FIR no emplean una retroalimentación de la salida anterior, por lo que, no podran aprender acerca del comportamiento de la señal para seguir un patron y obtener un mejor filtrado. Sin embargo, al no tener una retroalimentación no habran picos dentro de la señal que pueden afectar a la señal.
 2. Es importante escoger la frecuencia de muestreo correcta para convertir la frecuencia de Hz a radianes de manera correcta para así determinar las frecuencias de paso y "stop" adecuados, como la frecuencia de corte.
