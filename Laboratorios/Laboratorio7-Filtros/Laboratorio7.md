@@ -83,6 +83,6 @@ En este laboratorio se realizará un filtrado del ruido causado por la corriente
 2. Es importante escoger la frecuencia de muestreo correcta para convertir la frecuencia de Hz a radianes de manera correcta para así determinar las frecuencias de paso y "stop" adecuados, como la frecuencia de corte.
 3. Un filtro IIR necesita de menos números de muestra del filtro en comparación al FIR, ya que ese número de muestras dependerá de que tan largo sea el intervalo entre la frecuencia de paso y stop. En cambio, los otros dependen de cada tipo de ventana.
 4. Los filtros IIR mostraron ser eficaces en la eliminación de componentes de alta frecuencia no deseados en señales EEG, ECG y EMG, contribuyendo a la mejora de la calidad de los registros de las señales.
-5. Tras aplicar el filtro a la señal de ECG, no se observaron cambios notorios en la salida, lo que sugiere que la señal original puede haber estado relativamente libre de interferencias de alta frecuencia.
+5. Tras aplicar el filtro IIR a la señal de ECG, no se observaron cambios notorios en la salida, lo que sugiere que la señal original puede haber estado relativamente libre de interferencias de alta frecuencia. Sin embargo, al utilizar el filtro FIR se mostro una notable mejoría en la visualización de la señal lo que sugiere que este tipo de filtros funcionan de mejor manera en el procesamiento de estas señales.
 # Bibliografía
 1. Díaz Osornio, J. H. Capítulo 5. Filtrado de señales. (p. 20). http://www.ptolomeo.unam.mx:8080/xmlui/bitstream/handle/132.248.52.100/263/A7.pdf?sequence=7
