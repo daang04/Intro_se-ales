@@ -78,11 +78,23 @@ En este laboratorio se realizará un filtrado del ruido causado por la corriente
 | FIR usando ventana Hanning | ![Alt text](<Imágenes/Tipos de filtro/FIR_hann_EEG.png>)
 
 ## Wavelet
+- EEG
+| Señal original EEG | ![Alt text](Im%C3%A1genes/Wavelet/eeg_raw.png)
+| ECG Wavelet | ![Alt text](Im%C3%A1genes/Wavelet/eeg_w.png)
+|----------|----------|
+- ECG
+| Señal original ECG| ![Alt text](Im%C3%A1genes/Wavelet/ecg_raw.png)
+| ECG Wavelet | ![Alt text](Im%C3%A1genes/Wavelet/ecg_w.png)
+- EMG
+| Señal original EMG | ![Alt text](Im%C3%A1genes/Wavelet/emg_raw.png)
+| EMG Wavelet | ![Alt text](Im%C3%A1genes/Wavelet/emg_w.png)
+
 # Conclusiones
 1. Los filtros FIR no emplean una retroalimentación de la salida anterior, por lo que, no podran aprender acerca del comportamiento de la señal para seguir un patron y obtener un mejor filtrado. Sin embargo, al no tener una retroalimentación no habran picos dentro de la señal que pueden afectar a la señal.
 2. Es importante escoger la frecuencia de muestreo correcta para convertir la frecuencia de Hz a radianes de manera correcta para así determinar las frecuencias de paso y "stop" adecuados, como la frecuencia de corte.
 3. Un filtro IIR necesita de menos números de muestra del filtro en comparación al FIR, ya que ese número de muestras dependerá de que tan largo sea el intervalo entre la frecuencia de paso y stop. En cambio, los otros dependen de cada tipo de ventana.
 4. Los filtros IIR mostraron ser eficaces en la eliminación de componentes de alta frecuencia no deseados en señales EEG, ECG y EMG, contribuyendo a la mejora de la calidad de los registros de las señales.
 5. Tras aplicar el filtro IIR a la señal de ECG, no se observaron cambios notorios en la salida, lo que sugiere que la señal original puede haber estado relativamente libre de interferencias de alta frecuencia. Sin embargo, al utilizar el filtro FIR se mostro una notable mejoría en la visualización de la señal lo que sugiere que este tipo de filtros funcionan de mejor manera en el procesamiento de estas señales.
+6. El filtrado de Wavelet tiene un buen performance para eliminar los ruidos o artefactos que se encontraron dentro de las señales biomédicas.
 # Bibliografía
 1. Díaz Osornio, J. H. Capítulo 5. Filtrado de señales. (p. 20). http://www.ptolomeo.unam.mx:8080/xmlui/bitstream/handle/132.248.52.100/263/A7.pdf?sequence=7
