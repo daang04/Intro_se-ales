@@ -82,6 +82,7 @@ En este laboratorio se realizará un filtrado del ruido causado por la corriente
 1. Los filtros FIR no emplean una retroalimentación de la salida anterior, por lo que, no podran aprender acerca del comportamiento de la señal para seguir un patron y obtener un mejor filtrado. Sin embargo, al no tener una retroalimentación no habran picos dentro de la señal que pueden afectar a la señal.
 2. Es importante escoger la frecuencia de muestreo correcta para convertir la frecuencia de Hz a radianes de manera correcta para así determinar las frecuencias de paso y "stop" adecuados, como la frecuencia de corte.
 3. Un filtro IIR necesita de menos números de muestra del filtro en comparación al FIR, ya que ese número de muestras dependerá de que tan largo sea el intervalo entre la frecuencia de paso y stop. En cambio, los otros dependen de cada tipo de ventana.
-4.
+4. Los filtros IIR mostraron ser eficaces en la eliminación de componentes de alta frecuencia no deseados en señales EEG, ECG y EMG, contribuyendo a la mejora de la calidad de los registros de las señales.
+5. Tras aplicar el filtro a la señal de ECG, no se observaron cambios notorios en la salida, lo que sugiere que la señal original puede haber estado relativamente libre de interferencias de alta frecuencia.
 # Bibliografía
 1. Díaz Osornio, J. H. Capítulo 5. Filtrado de señales. (p. 20). http://www.ptolomeo.unam.mx:8080/xmlui/bitstream/handle/132.248.52.100/263/A7.pdf?sequence=7
