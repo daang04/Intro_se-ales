@@ -42,7 +42,7 @@ En este laboratorio se realizará un filtrado del ruido causado por la corriente
 
 | Señal original EMG|![Alt text](<Imágenes/Tipos de filtro/IIR imagenes/IIR EMG sin procesar.png>)  | 
 |----------|----------|
-| Señal procesada usando Butterworth | ![Alt text](<Imágenes/Tipos de filtro/IIR EMG procesada.png>)| 
+| Señal procesada usando Butterworth | ![Alt text](<Imágenes/Tipos de filtro/IIR imagenes/IIR EMG procesada.png>)| 
 
 - ECG: Se utilizo una frecuencia de muestreo de 1000 Hz, ya que las frecuencias del ECG van hasta 100 Hz, entonces, para cumplir nyquist se eligio esa frecuencia.
 
