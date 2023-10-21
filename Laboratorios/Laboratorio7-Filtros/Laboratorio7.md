@@ -20,6 +20,11 @@ Una de las fases del procesamiento de señales biomedicas es el filtrado, ya que
    ![Alt text](<Imágenes/Tipos de filtro/FIR.PNG>)
    Figura 2. Ventanas para filtros FIR
 
+## Filtro con Wavelets
+    El filtrado con la técnica de Wavelets es utilizado para analizar señales (continuas o discretas) tanto en el dominio del tiempo como en la frecuencia. Los filtros wavelet  permiten eliminar ruido y extraer características de la señal. Existen diferentes familia de wavelets tales como Haar, Daubechies, Coiflets, Symlets, Biortogonales, Meyer, Mexican hat, Shannon y Morlet.
+  ![Alt text](<Imágenes/Tipos de filtro/Wavelet.png>)
+  Figura 3. Wavelet
+
 En este laboratorio se realizará un filtrado del ruido causado por la corriente eléctrica (60 Hz )de las señales ECG, EMG y EEG obtenidas previamente utilizando los siguientes métodos de filtros: FIR y IIR. Posteriormente, se hará una comparación entre los resultados obtenidos para determinar el mejor filtro.
 
 # Materiales
@@ -78,16 +83,24 @@ En este laboratorio se realizará un filtrado del ruido causado por la corriente
 | FIR usando ventana Hanning | ![Alt text](<Imágenes/Tipos de filtro/FIR_hann_EEG.png>)
 
 ## Wavelet
+Para el filtrado de las señales EEG, ECG y EMG mediante la Transformada Discreta Wavelet (DWT) se utilizó la familia Daubechies ¨db6¨ y nivel de descomposición 5 para eliminar el ruido y comprimir las señales biomédicas.
 - EEG
-| Señal original EEG | ![Alt text](Im%C3%A1genes/Wavelet/eeg_raw.png)
-| ECG Wavelet | ![Alt text](Im%C3%A1genes/Wavelet/eeg_w.png)
+
+| Señal original EEG |![Alt text](<Imágenes/Wavelet/eeg_raw.png>)
 |----------|----------|
+| ECG Wavelet| ![Alt text](<Imágenes/Wavelet/eeg_w.png>)
+
 - ECG
-| Señal original ECG| ![Alt text](Im%C3%A1genes/Wavelet/ecg_raw.png)
-| ECG Wavelet | ![Alt text](Im%C3%A1genes/Wavelet/ecg_w.png)
+
+| Señal original ECG| ![Alt text](<Imágenes/Wavelet/ecg_raw.png>)
+|----------|----------|
+| ECG Wavelet | ![Alt text](<Imágenes/Wavelet/ecg_w.png>)
+
 - EMG
-| Señal original EMG | ![Alt text](Im%C3%A1genes/Wavelet/emg_raw.png)
-| EMG Wavelet | ![Alt text](Im%C3%A1genes/Wavelet/emg_w.png)
+
+| Señal original EMG | ![Alt text](<Imágenes/Wavelet/emg_raw.png>)
+|----------|----------|
+| EMG Wavelet | ![Alt text](<Imágenes/Wavelet/emg_w.png>)
 
 # Conclusiones
 1. Los filtros FIR no emplean una retroalimentación de la salida anterior, por lo que, no podran aprender acerca del comportamiento de la señal para seguir un patron y obtener un mejor filtrado. Sin embargo, al no tener una retroalimentación no habran picos dentro de la señal que pueden afectar a la señal.
@@ -95,6 +108,9 @@ En este laboratorio se realizará un filtrado del ruido causado por la corriente
 3. Un filtro IIR necesita de menos números de muestra del filtro en comparación al FIR, ya que ese número de muestras dependerá de que tan largo sea el intervalo entre la frecuencia de paso y stop. En cambio, los otros dependen de cada tipo de ventana.
 4. Los filtros IIR mostraron ser eficaces en la eliminación de componentes de alta frecuencia no deseados en señales EEG, ECG y EMG, contribuyendo a la mejora de la calidad de los registros de las señales.
 5. Tras aplicar el filtro IIR a la señal de ECG, no se observaron cambios notorios en la salida, lo que sugiere que la señal original puede haber estado relativamente libre de interferencias de alta frecuencia. Sin embargo, al utilizar el filtro FIR se mostro una notable mejoría en la visualización de la señal lo que sugiere que este tipo de filtros funcionan de mejor manera en el procesamiento de estas señales.
-6. El filtrado de Wavelet tiene un buen performance para eliminar los ruidos o artefactos que se encontraron dentro de las señales biomédicas.
+6. La aplicación del filtrado Wavelet ha demostrado ser altamente efectiva en la eliminación de ruidos y artefactos presentes en las señales biomédicas. En particular, se ha observado que la señal ECG muestra una calidad de filtrado excepcionalmente alta con esta técnica. Seguido de la señal EEG, que también presenta una mejora significativa tras el filtrado. Aunque la señal EMG muestra la menor mejora entre las tres, aún así se beneficia del uso del filtrado Wavelet. 
+7. Se recomienda realizar más pruebas con una mayor cantidad de señales y los distintos filtros para obtener resultados significativos. Asimismo, es importante destacar que la adquisición de la data influye notablemente en los resultados de filtrado, por ello es importante realizar un protocolo riguroso.
 # Bibliografía
 1. Díaz Osornio, J. H. Capítulo 5. Filtrado de señales. (p. 20). http://www.ptolomeo.unam.mx:8080/xmlui/bitstream/handle/132.248.52.100/263/A7.pdf?sequence=7
+2. MathWorks, “Choose a Wavelet - MATLAB & Simulink,” 2023. Available: https://www.mathworks.com/help/wavelet/gs/choose-a-wavelet.html. 
+3. PyWavelets, “Discrete Wavelet Transform (DWT) — PyWavelets Documentation,” 2023.  Available: https://pywavelets.readthedocs.io/en/latest/ref/dwt-discrete-wavelet-transform.html.
