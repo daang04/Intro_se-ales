@@ -21,3 +21,4 @@ En este laboratorio se extraerán las principales características de la señal 
 # Conclusiones
 
 # Bibliografía
+- L. Sanabria y O. Avilez, “Extracción de características y métodos de clasificación para reconocimiento de movimientos de mano a partir de señales de EMG y EEG: Revisión”, Revista Ingeniería Biomédica, vol. 14, no. 28, pp. 3-16, 2020.
