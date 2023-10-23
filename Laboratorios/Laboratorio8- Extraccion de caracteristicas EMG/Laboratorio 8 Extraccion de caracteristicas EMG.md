@@ -11,7 +11,7 @@
 # Introducción
 En este laboratorio se extraerán las principales características de la señal EMG previamente adquiridas y fltradas en anteriores laboratorios. Estas características son las siguientes: RMS, media,etc.
 # Materiales
-- Señal crudfiltrada de EMG 
+- Señal filtrada de EMG 
 - Computadora con el software instalado de Python 
 # Metodología
 
