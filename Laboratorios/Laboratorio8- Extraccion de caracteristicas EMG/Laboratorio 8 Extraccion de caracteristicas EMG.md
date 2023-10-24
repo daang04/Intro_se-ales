@@ -18,6 +18,13 @@ En este laboratorio se extraerán las principales características de la señal 
 
 # Resultados y discusión
 
+| Señal | Filtro Wavelet | Filto Butterworth| 
+|:------------- |:---------------:| :---------------:| 
+| ![Alt text](Imagenes/EMG1.png)      | ![Alt text](Imagenes/filtro1.png)        | ![Alt text](Imagenes/butt1.png)|
+| ![Alt text](Imagenes/EMG2.png)         | ![Alt text](Imagenes/filtro2.png)        | ![Alt text](Imagenes/butt2.png)|
+| ![Alt text](Imagenes/EMG3.png)        | ![Alt text](Imagenes/filtro3.png)        |![Alt text](Imagenes/butt3.png) |
+
+
 # Conclusiones
 
 # Bibliografía
