@@ -50,6 +50,18 @@ La evaluación de parámetros electromiográficos desempeña un papel fundamenta
 
 # Conclusiones
 
+- Se pudo observar algunas dificultades al momento de aplicar los filtros sobre las señales, siendo las más evidentes aquellas que fueron filtradas por medio de un filtro FIR. Estas alteraciones no deseadas pueden atribuirse a la selectividad y características específicas de ese filtro. Por lo anterior, se sugiere elegir cuidadosamente los parámetros del filtro, para la extracción de características de EMG. Asimismo, se observan características anómalas en las señales 1 y 3 lo que sugiere que la obtención de dichas señales pudieron verse afectada por diferentes aspectos desde la medición de las mismas, hasta la alta sensibilidad de estas sobre el ruido (ruido ambiental, del sensor, entre otros).
+
+- Se concluye que la evaluación de parámetros electromiográficos, como el valor máximo, mínimo y promedio de la señal EMG, junto con la desviación estándar y el RMS, ofrencen una visión integral de la actividad muscular dado que estos parámetros permiten comprender y monitorizar la actividad muscular. Esta información resulta útil en diversas aplicaciones donde se requiere una evaluación profunda y precisa del comportamiento muscular del paciente.
+
+- El valor máximo de la señal EMG (amplitud máxima registrada) perteneciente a la tercera señal de EMG fue de 1022 mA. Este valor puede proporcionar información relevante sobre la capacidad de generación de fuerza muscular del paciente principalmente debido a que el valor máximo es un indicador que permite identificar la máxima actividad eléctrica generada por un músculo dentro de un período en específico.
+
+- En el contexto de la evaluación de parámetros electromiográficos, el RMS (Root Mean Square) proporciona una caracterización cuantitativa de la magnitud de la actividad muscular de señales EMG, la cual cuantifica la magnitud de actividad muscular. En ese sentido, se destacó el valor de 9.37, donde si se observa los valores anteriores al estimulo fisico se presentan pequeñas pausas indicando que la actividad a la que fue sometido el musculo se realizó de manera pausada.
+
+- Por otro lado, se observó que el valor del área del EMG fue de 1517.598 lo que indica la integral de la señal electromiográfica, que refleja la cantidad total de actividad muscular registrada durante el período de estimulo fisico. Por lo anterior, se puede concluir que la actividad muscular en el área especifica donde se obtuvo la señal del participante tuvo un rendimiento y funcionalidad muscular adecuados y normales.
+
+- Se pudo observar que un valor alto de desviación estándar indica una actividad muscular que varía significativamente, conclusión que es comprensible en el contexto del uso normal de los músculos sometidos a una actividad o estimulo fisico en la que el paciente se encuentre y se necesite de dicha activacion para cumplir o compensar dichas actividades. Asimismo, esta variabilidad refleja la capacidad de los músculos para adaptarse a diferentes demandas dado que la desviación estándar de la señal EMG es utilizada para medir la variabilidad en la actividad muscular.
+
 # Bibliografía
 - [1] L. Sanabria y O. Avilez, “Extracción de características y métodos de clasificación para reconocimiento de movimientos de mano a partir de señales de EMG y EEG: Revisión”, Revista Ingeniería Biomédica, vol. 14, no. 28, pp. 3-16, 2020.
 - [2]•	J. Diong, K. C. Kishimoto, J. E. Butler y M. E. Héroux, “Muscle electromyographic activity normalized to maximal muscle activity, not to M max, better represents voluntary activation”, PLoS ONE, vol. 17, no. 11, e0277947, 2022. [Online]. Disponible: https://doi.org/10.1371/journal.pone.0277947
