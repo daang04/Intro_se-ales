@@ -35,13 +35,15 @@ Se utilizaron dos librerías: Neurokit2 y Biosignals en Python para extraer las 
 ## Librería Biosignals
 Resultados para amplitud, frecuencia cardiaca y picos-R en todo el tiempo de la señal ECG
 ![Alt text](<Imágenes/Extraccion de caracteristicas/1 scypy.jpg>)
+
 Resultados para amplitud, frecuencia cardica y picos-R para 5 segundos de la señal ECG
 ![Alt text](<Imágenes/Extraccion de caracteristicas/1 scypy 5 seg.jpg>)
 
 ## Librería Neurokit2
-Resultados utilizando el filtro de Neurokit
+Resultados utilizando el filtro de Neurokit(Average heart rate: 64.7 bpm)
 ![Alt text](<Imágenes/Extraccion de caracteristicas/2 filtro neurokit.jpg>)
-Resultados utilizando el filtro de wavelets
+
+Resultados utilizando el filtro de wavelets (Average heart rate: 64.4 bpm)
 ![Alt text](<Imágenes/Extraccion de caracteristicas/3 filtro wavelet.jpg>)
 
 # Conclusiones
