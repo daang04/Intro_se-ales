@@ -14,14 +14,13 @@ La extracción de características es ampliamente desarrollada en el procesamien
 En este laboratorio, se extraerán las principales características de la señal ECG previamente adquiridas y filtradas en estudios anteriores. Estas características pueden incluir el intervalo QRS, el segmento ST, el ritmo cardíaco, los picos R, asimismo, como la media de los intervalos mencionados, los cuales son esenciales para la evaluación y diagnóstico de afecciones cardíacas.
 
 # Materiales
-
 - Una computadora con python
 - Señal de ECG
 - Librerias instaladas: Neurokit 2 y Biosignals
 
 # Metodología
 La metodología para la extracción de las características más importantes del ECG se llevó a cabo en varios pasos. En primer lugar, se adquirió la data utilizando el módulo de bitalino para capturar la señal de ECG. Posteriormente, se procedió a procesar esta data utilizando el lenguaje de programación Python. Para la filtración de la señal, se aplicaron dos métodos en paralelo, de forma no secuencial. El primer método consistió en la transformación de wavelet con un umbral de 100, mientras que el segundo método empleó el filtro FIR disponible en la biblioteca Neurokit.
-![Alt text](<Imágenes/Extraccion de caracteristicas/1 wavelet.png>)
+![Alt text](<Imágenes/1 wavelet.png>)
 
 Una vez que la señal fue filtrada, se procedió a la extracción de características utilizando las bibliotecas Neurokit y Biosignals. En el código utilizado para llevar a cabo este proceso, se pueden observar los comandos específicos que se emplearon para realizar la extracción de las características clave del ECG. Estos pasos permitieron identificar y analizar de manera efectiva las características más relevantes de la señal de ECG, lo que resulta fundamental en la evaluación y diagnóstico de trastornos cardíacos y otras aplicaciones médicas.
 
@@ -41,6 +40,6 @@ Resultados utilizando el filtro de wavelets (Average heart rate: 64.4 bpm)
 ![Alt text](<Imágenes/Extraccion de caracteristicas/3 filtro wavelet.jpg>)
 
 # Conclusiones
-
+- La etapa previa a la extracción de características de la señal ECG es crucial para obtener resultados precisos y de calidad, por ello es importante definir adecuadamente el tipo de filtro a utilizar para minimizar o eliminar el ruido ocasionado por la corriente eléctrica, actividad muscular y otros factores externos. En este caso, se observó que el filtro de wavelet tuvo el mejor performance para filtrar la señal ECG en comparación con el filtro FIR propio de la librería Neurokit y en consecuencia la extracción de características fue más precisa. 
 # Bibliografía
 [1] V. Montes, G. Guarín y G. Castellanos, “Extracción de características en señales ECG normales y patológicas mediante wavelets y análisis no lineal de componentes principales”, Revista Ingeniería Biomédica, vol. 1, no. 1, pp. 7-16, 2007.
