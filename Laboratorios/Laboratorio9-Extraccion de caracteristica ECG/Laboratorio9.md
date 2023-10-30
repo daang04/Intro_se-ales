@@ -54,5 +54,9 @@ Resultados para amplitud, frecuencia cardica y picos-R para 5 segundos de la se�
 - La detección de las ondas P y T en ocasiones no fueron ubicados con gran exactitud, debido a las fuertes
 influencias ruido, y/o a la muy pequeña amplitud; lo que determinó más inconvenientes en la caracterización de la
 onda T y no se pudo extraer más características de la señal.
+- Librerías Neurokit y Biosignals, son herramientas útiles para el procesamiento y  extracción de las señales debido a su gran capacidad de filtrar las señales para su posterior caracterización mediante la amplitud, valor RMS, valores pico y frecuencias caracterisiticas de la señal de ECG.
+
 # Bibliografía
-[1] V. Montes, G. Guarín y G. Castellanos, “Extracción de características en señales ECG normales y patológicas mediante wavelets y análisis no lineal de componentes principales”, Revista Ingeniería Biomédica, vol. 1, no. 1, pp. 7-16, 2007.
+- [1] V. Montes, G. Guarín y G. Castellanos, “Extracción de características en señales ECG normales y patológicas mediante wavelets y análisis no lineal de componentes principales”, Revista Ingeniería Biomédica, vol. 1, no. 1, pp. 7-16, 2007.
+- [2] Carreiras C, Alves AP, Lourenço A, Canento F, Silva H, Fred A, et al. BioSPPy - Biosignal Processing in Python, 2015-, https://github.com/PIA-Group/BioSPPy/ 
+- [3] D. Makowski, G. Loevenbruck, T. Pham y otros, NeuroKit: A Python Toolbox for Statistics and Neurophysiological Signal Processing (EEG, EDA, ECG, EMG…). (2020). Distribuido por GitHub. https://github.com/neuropsychology/NeuroKit
