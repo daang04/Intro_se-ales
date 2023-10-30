@@ -20,16 +20,10 @@ En este laboratorio, se extraerán las principales características de la señal
 - Librerias instaladas: Neurokit 2 y Biosignals
 
 # Metodología
-## Preprocesamiento
-Se obtiene la medición a partir del software OpenSignals de Bitalino, a la cual se aplica la transformada de Fourier para obtener la frecuencia presente que origina el ruido de la señal. Con ello, se definen las frecuencias de corte. Para definir el orden de filtro, se emplea una lista de valores de orden de filtro. El código carga una señal de ECG y establece valores de frecuencia de corte para todos los filtros FIR. Luego, ejecuta un bucle para aplicar el filtro FIR con diferentes órdenes a la señal original. Las señales filtradas se trazan en una misma gráfica junto con la señal sin filtrar para comparar cómo diferentes órdenes afectan la señal.
-![Alt text](<Imágenes/Preprocesamiento/1 comparacion.png>)
+La metodología para la extracción de las características más importantes del ECG se llevó a cabo en varios pasos. En primer lugar, se adquirió la data utilizando el módulo de bitalino para capturar la señal de ECG. Posteriormente, se procedió a procesar esta data utilizando el lenguaje de programación Python. Para la filtración de la señal, se aplicaron dos métodos en paralelo, de forma no secuencial. El primer método consistió en la transformación de wavelet con un umbral de 100, mientras que el segundo método empleó el filtro FIR disponible en la biblioteca Neurokit.
+![Alt text](<Imágenes/Extraccion de caracteristicas/1 wavelet.png>)
 
-El filtro FIR resultante se aplica con un orden de 60 al conjunto de datos con una frecuencia de muestreo de 1000 Hz y las frecuencias de corte 0.5 y 35. Luego, la señal filtrada resultante se visualiza en el siguiente gráfico.
-![Alt text](<Imágenes/Preprocesamiento/2 señal filtrada.png>)
-
-## Procesamiento y extracción de características
-Se utilizaron dos librerías: Neurokit2 y Biosignals en Python para extraer las características más importantes de la señal ECG. Es importante destacar que el codigo empleado se encuentra en la carpeta "codigo" del laboratorio 9 para más información sobre que comandos se han utilizado.
-
+Una vez que la señal fue filtrada, se procedió a la extracción de características utilizando las bibliotecas Neurokit y Biosignals. En el código utilizado para llevar a cabo este proceso, se pueden observar los comandos específicos que se emplearon para realizar la extracción de las características clave del ECG. Estos pasos permitieron identificar y analizar de manera efectiva las características más relevantes de la señal de ECG, lo que resulta fundamental en la evaluación y diagnóstico de trastornos cardíacos y otras aplicaciones médicas.
 
 # Resultados y discusión
 ## Librería Biosignals
