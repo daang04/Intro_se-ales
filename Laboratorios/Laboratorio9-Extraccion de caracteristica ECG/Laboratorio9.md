@@ -47,4 +47,4 @@ Resultados utilizando el filtro de wavelets
 # Conclusiones
 
 # Bibliografía
-[1] 
+[1] V. Montes, G. Guarín y G. Castellanos, “Extracción de características en señales ECG normales y patológicas mediante wavelets y análisis no lineal de componentes principales”, Revista Ingeniería Biomédica, vol. 1, no. 1, pp. 7-16, 2007.
