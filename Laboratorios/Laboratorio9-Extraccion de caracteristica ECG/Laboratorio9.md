@@ -51,5 +51,8 @@ Resultados para amplitud, frecuencia cardica y picos-R para 5 segundos de la se�
 
 # Conclusiones
 - La etapa previa a la extracción de características de la señal ECG es crucial para obtener resultados precisos y de calidad, por ello es importante definir adecuadamente el tipo de filtro a utilizar para minimizar o eliminar el ruido ocasionado por la corriente eléctrica, actividad muscular y otros factores externos. En este caso, se observó que el filtro de wavelet tuvo el mejor performance para filtrar la señal ECG en comparación con el filtro FIR propio de la librería Neurokit y en consecuencia la extracción de características fue más precisa. 
+- La detección de las ondas P y T en ocasiones no fueron ubicados con gran exactitud, debido a las fuertes
+influencias ruido, y/o a la muy pequeña amplitud; lo que determinó más inconvenientes en la caracterización de la
+onda T y no se pudo extraer más características de la señal.
 # Bibliografía
 [1] V. Montes, G. Guarín y G. Castellanos, “Extracción de características en señales ECG normales y patológicas mediante wavelets y análisis no lineal de componentes principales”, Revista Ingeniería Biomédica, vol. 1, no. 1, pp. 7-16, 2007.
