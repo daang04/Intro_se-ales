@@ -16,14 +16,35 @@ En este laboratorio, se extraerán las principales características de la señal
 # Materiales
 
 - Una computadora con python
-- Señal filtrada de ECG
+- Señal de ECG
+- Librerias instaladas: Neurokit 2 y Biosignals
 
 # Metodología
+## Preprocesamiento
+Se obtiene la medición a partir del software OpenSignals de Bitalino, a la cual se aplica la transformada de Fourier para obtener la frecuencia presente que origina el ruido de la señal. Con ello, se definen las frecuencias de corte. Para definir el orden de filtro, se emplea una lista de valores de orden de filtro. El código carga una señal de ECG y establece valores de frecuencia de corte para todos los filtros FIR. Luego, ejecuta un bucle para aplicar el filtro FIR con diferentes órdenes a la señal original. Las señales filtradas se trazan en una misma gráfica junto con la señal sin filtrar para comparar cómo diferentes órdenes afectan la señal.
+![Alt text](<Imágenes/Preprocesamiento/1 comparacion.png>)
 
-Se adquirio la señal de ECG mediante el módulo del Bitalino para luego ser filtrada mediante el método de Wavelet y sus respectivos coeficientes. Desde este punto, se utilizo la libreria llamada neurokit en Python para extraer las características más importantes como las mnecionadas en la introudcción. Es importante destacar que el codigo empleado se encuentra en la carpeta "codigo" del laboratorio 9 para más información sobre que comandos se han utilizado.
+El filtro FIR resultante se aplica con un orden de 60 al conjunto de datos con una frecuencia de muestreo de 1000 Hz y las frecuencias de corte 0.5 y 35. Luego, la señal filtrada resultante se visualiza en el siguiente gráfico.
+![Alt text](<Imágenes/Preprocesamiento/2 señal filtrada.png>)
+
+## Procesamiento y extracción de características
+Se utilizaron dos librerías: Neurokit2 y Biosignals en Python para extraer las características más importantes de la señal ECG. Es importante destacar que el codigo empleado se encuentra en la carpeta "codigo" del laboratorio 9 para más información sobre que comandos se han utilizado.
+
 
 # Resultados y discusión
+## Librería Biosignals
+Resultados para amplitud, frecuencia cardiaca y picos-R en todo el tiempo de la señal ECG
+![Alt text](<Imágenes/Extraccion de caracteristicas/1 scypy.jpg>)
+Resultados para amplitud, frecuencia cardica y picos-R para 5 segundos de la señal ECG
+![Alt text](<Imágenes/Extraccion de caracteristicas/1 scypy 5 seg.jpg>)
+
+## Librería Neurokit2
+Resultados utilizando el filtro de Neurokit
+![Alt text](<Imágenes/Extraccion de caracteristicas/2 filtro neurokit.jpg>)
+Resultados utilizando el filtro de wavelets
+![Alt text](<Imágenes/Extraccion de caracteristicas/3 filtro wavelet.jpg>)
 
 # Conclusiones
 
 # Bibliografía
+[1] 
