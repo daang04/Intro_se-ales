@@ -27,16 +27,26 @@ Una vez que la señal fue filtrada, se procedió a la extracción de caracterís
 # Resultados y discusión
 ## Librería Biosignals
 Resultados para amplitud, frecuencia cardiaca y picos-R en todo el tiempo de la señal ECG
+- Pico R máximo: 150-160
+- Frecuencia cardiaca máxima: 85 bpm
 ![Alt text](<Imágenes/Extraccion de caracteristicas/1 scypy.jpg>)
 
 Resultados para amplitud, frecuencia cardica y picos-R para 5 segundos de la señal ECG
+- Pico R máximo: 148
+- Frecuencia cardiaca máxima: 73 bpm
 ![Alt text](<Imágenes/Extraccion de caracteristicas/1 scypy 5 seg.jpg>)
 
 ## Librería Neurokit2
-Resultados utilizando el filtro de Neurokit(Average heart rate: 64.7 bpm)
+### Resultados utilizando el filtro de Neurokit
+- Average heart rate: 64.7 bpm (Color rojo)
+- Pico R máximo: 80
+- Se observa que la gráfica de frecuencia cardiaca en el tiempo no es coherente. Esto puede deberse a que la librería utilizada emplea filtro tipo FIR.
 ![Alt text](<Imágenes/Extraccion de caracteristicas/2 filtro neurokit.jpg>)
 
-Resultados utilizando el filtro de wavelets (Average heart rate: 64.4 bpm)
+### Resultados utilizando el filtro de wavelets 
+- Average heart rate: 64.4 bpm (Color rojo)
+- Pico R máximo: 90 
+- Se observa que la gráfica de frecuencia cardiaca es coherente, ya que se empleó un filtro tipo Wavelet previamente.
 ![Alt text](<Imágenes/Extraccion de caracteristicas/3 filtro wavelet.jpg>)
 
 # Conclusiones
