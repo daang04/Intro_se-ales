@@ -34,6 +34,7 @@ Existen diferentes técnicas de extracción de características tales como anál
 # Resultados y discusión
 Con el propósito de aislar las bandas de interés asociadas a la señal de electroencefalograma (EEG), se llevó a cabo un proceso de filtrado utilizando frecuencias de corte correspondientes a cada una de las bandas características. En este contexto, se emplearon exclusivamente filtros pasabanda, ajustados con las frecuencias de corte distintivas de cada ritmo de EEG. Una vez concluido el proceso de adquisición y filtrado de las señales, se evidenciaron cambios significativos en relación con las diversas bandas que conforman la señal EEG. En consecuencia, se procedió a la extracción de las características de cada señal, resultando en los siguientes valores para las respectivas señales:
 
+
 1. Delta
 - RMS (Delta): 83.07800683288704
 - Amplitude (Delta): 649.8057934174266
@@ -71,9 +72,13 @@ Con el propósito de aislar las bandas de interés asociadas a la señal de elec
 - Mean (Beta): 0.09781222166618311
 - Median (Beta): 0.012361999371375285
 
+# Discusiones
+- Se tiene en cuenta de que el filtrado utilizado pese a que mostro mejorias, podría mejorarse aun mas dado a que se pueden utilizar tecnicas de enventanado para reducir los efectos secundarios no deseados, como las fugas espectrales, que pueden ocurrir al analizar segmentos finitos de una señal continua.
+- Por otro lado, dado a que este laboratorio se enfoco principalmente en evaluar los resultado de las caracteristicas obtenidas de cada banda especifica de una señal electroencefalografica no se consideró utilizar o realizar un analisis de espectro sobre cada una de las bandas una vez finalizada su procesamiento. Cabe destacar que este tipo de análisis podría resultar altamente beneficioso al examinar y verificar efectivamente si la señal filtrada corresponde y opera dentro de la banda característica que se pretende analizar, ya sea Delta, Theta, Alpha, entre otras.
 # Conclusiones
 - La extracción de característica permiten reconocer el tipo de actividad cerebral que realiza la persona, por lo que su aplicación para dispositivos biomédicos como el control de prótesis de extremidad superior puede ser útil.
 - Las señales de EEG generalmente no presentan un patrón común como en el caso de ECG, por ello es importante realizar un preprocesamiento, procesamiento y análisis adecuado para interpretar sus características correctamente.
+
 
 # Bibliografía
 [1] Medina, B., Sierra, J. E., & Barrios Ulloa, A. (2018). Extraction techniques of EEG signals characteristics in motion imagination for BCI systems. Espacios, 39(22), 36. https://www.revistaespacios.com/a18v39n22/a18v39n22p36.pdf
