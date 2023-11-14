@@ -28,7 +28,7 @@ Existen diferentes técnicas de extracción de características tales como anál
 - Gamma >30Hz
 - Sigma 12Hz - 15Hz
 
-4. Se procesaron las señales en Python utilizando la librería de Neurokit2 para extraer las características principales de la señal EEG como frecuencia, amplitud, entre otros. 
+4. Se procesaron las señales en Python utilizando la librería de Neurokit2 para extraer las características principales de la señal EEG como el valor RMS, la amplitud, entre otros parámetros. 
 5. Se analizaron las señales mediante las gráficas para visualizar el comportamiento de acuerdo a la actividad mental.
 
 # Resultados
@@ -77,7 +77,7 @@ Una vez finalizado el procesamiento de cada señal,se procedió a la extracción
 - Median (Beta): 0.012361999371375285
 
 # Discusiones
-A modo de interpretar los resultados, resulta pertinente poder analizarlos de manera independiente, de lo anterior se llegaron a los siguientes analisis.
+A modo de interpretar los resultados, resulta pertinente poder analizarlos de manera independiente, de lo anterior se llegaron a los siguientes análisis.
 
 1. Delta:
 
@@ -119,9 +119,10 @@ Asimismo, se tuvieron en cuenta las siguientes consideraciones:
 - Se destaca de que el filtrado utilizado pese a que mostro mejorias, podría mejorarse aun mas dado a que se pueden utilizar tecnicas de enventanado para reducir los efectos secundarios no deseados, como las fugas espectrales, que pueden ocurrir al analizar segmentos finitos de una señal continua.
 - Por otro lado, dado a que este laboratorio se enfoco principalmente en evaluar los resultado de las caracteristicas obtenidas de cada banda especifica de una señal electroencefalografica no se consideró utilizar o realizar un analisis de espectro sobre cada una de las bandas una vez finalizada su procesamiento. Cabe destacar que este tipo de análisis podría resultar altamente beneficioso al examinar y verificar efectivamente si la señal filtrada corresponde y opera dentro de la banda característica que se pretende analizar, ya sea Delta, Theta, Alpha, entre otras.
 # Conclusiones
-- La extracción de característica permiten reconocer el tipo de actividad cerebral que realiza la persona, por lo que su aplicación para dispositivos biomédicos como el control de prótesis de extremidad superior puede ser útil.
+- Los valores obtenidos para las características de las señales EEG varían de acuerdo a la actividad cerebral, la cual está relacionada estrechamente con los tipos de ondas cerebrales. 
+- Las medidas de amplitud, integral y potencia proporcionan información detallada sobre la naturaleza y la intensidad de la actividad cerebral en cada banda, ya sea Delta, Theta, Alpha o Beta.
 - Las señales de EEG generalmente no presentan un patrón común como en el caso de ECG, por ello es importante realizar un preprocesamiento, procesamiento y análisis adecuado para interpretar sus características correctamente.
-
+- La extracción de características permiten reconocer el tipo de actividad cerebral que realiza la persona, por lo que su aplicación para dispositivos biomédicos como el control de prótesis de extremidad superior puede ser útil.
 
 # Bibliografía
 [1] Medina, B., Sierra, J. E., & Barrios Ulloa, A. (2018). Extraction techniques of EEG signals characteristics in motion imagination for BCI systems. Espacios, 39(22), 36. https://www.revistaespacios.com/a18v39n22/a18v39n22p36.pdf
