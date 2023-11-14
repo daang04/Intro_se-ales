@@ -28,7 +28,7 @@ Existen diferentes técnicas de extracción de características tales como anál
 - Gamma >30Hz
 - Sigma 12Hz - 15Hz
 
-4. Se procesaron las señales en Python utilizando la librería de Neurokit2 para extraer las características principales de la señal EEG como el valor RMS, la amplitud, entre otros parámetros. 
+4. Se procesaron las señales en Python utilizando la librería de Neurokit2 para extraer las características principales de la señal EEG como el valor RMS, la amplitud, el área, la potencia, el valor mínimo, el valor máximo, la media y la mediana para cada banda. 
 5. Se analizaron las señales mediante las gráficas para visualizar el comportamiento de acuerdo a la actividad mental.
 
 # Resultados
@@ -81,39 +81,39 @@ A modo de interpretar los resultados, resulta pertinente poder analizarlos de ma
 
 1. Delta:
 
-RMS (Root Mean Square): La raíz cuadrada media indica la amplitud promedio de la señal en la banda Delta. Un valor alto podría sugerir una mayor actividad en el sueño profundo.
-Amplitude: La amplitud representa la diferencia entre los valores máximo y mínimo en la banda Delta. Puede indicar la magnitud de las fluctuaciones en esta banda.
-Area: La integral de la señal en la banda Delta. Un valor negativo puede deberse a la predominancia de valores negativos.
-Power: La potencia en la banda Delta, que refleja la cantidad total de energía en esa frecuencia. Un valor alto puede relacionarse con una mayor actividad cerebral durante el sueño profundo.
-Min y Max Value: Los valores mínimo y máximo en la banda Delta. Proporcionan información sobre la variabilidad de la señal en esta banda.
-Mean y Median: El valor medio y la mediana en la banda Delta. Pueden dar una indicación de la tendencia central de la señal.
+- RMS (Root Mean Square): La raíz cuadrada media indica la amplitud promedio de la señal en la banda Delta. Un valor alto podría sugerir una mayor actividad en el sueño profundo.
+- Amplitude: La amplitud representa la diferencia entre los valores máximo y mínimo en la banda Delta. Puede indicar la magnitud de las fluctuaciones en esta banda.
+-Area: La integral de la señal en la banda Delta. Un valor negativo puede deberse a la predominancia de valores negativos.
+- Power: La potencia en la banda Delta, que refleja la cantidad total de energía en esa frecuencia. Un valor alto puede relacionarse con una mayor actividad cerebral durante el sueño profundo.
+- Min y Max Value: Los valores mínimo y máximo en la banda Delta. Proporcionan información sobre la variabilidad de la señal en esta banda.
+- Mean y Median: El valor medio y la mediana en la banda Delta. Pueden dar una indicación de la tendencia central de la señal.
 
 2. Theta:
 
-RMS: La raíz cuadrada media indica la amplitud promedio de la señal en la banda Theta. Puede relacionarse con la actividad cerebral durante la relajación.
-Amplitude: La diferencia entre los valores máximo y mínimo en la banda Theta. Puede indicar la magnitud de las fluctuaciones en esta banda.
-Area: La integral de la señal en la banda Theta. Representa la acumulación total de la señal en esta frecuencia.
-Power: La potencia en la banda Theta. Un valor alto podría relacionarse con la actividad cerebral durante procesos de memoria.
-Min y Max Value: Los valores mínimo y máximo en la banda Theta. Proporcionan información sobre la variabilidad de la señal en esta banda.
-Mean y Median: El valor medio y la mediana en la banda Theta. Pueden dar una indicación de la tendencia central de la señal.
+- RMS: La raíz cuadrada media indica la amplitud promedio de la señal en la banda Theta. Puede relacionarse con la actividad cerebral durante la relajación.
+- Amplitude: La diferencia entre los valores máximo y mínimo en la banda Theta. Puede indicar la magnitud de las fluctuaciones en esta banda.
+- Area: La integral de la señal en la banda Theta. Representa la acumulación total de la señal en esta frecuencia.
+- Power: La potencia en la banda Theta. Un valor alto podría relacionarse con la actividad cerebral durante procesos de memoria.
+- Min y Max Value: Los valores mínimo y máximo en la banda Theta. Proporcionan información sobre la variabilidad de la señal en esta banda.
+- Mean y Median: El valor medio y la mediana en la banda Theta. Pueden dar una indicación de la tendencia central de la señal.
 
 3. Alpha:
 
-RMS: La raíz cuadrada media indica la amplitud promedio de la señal en la banda Alpha. Un valor más alto podría relacionarse con un estado de relajación.
-Amplitude: La diferencia entre los valores máximo y mínimo en la banda Alpha. Puede indicar la magnitud de las fluctuaciones en esta banda.
-Area: La integral de la señal en la banda Alpha. Representa la acumulación total de la señal en esta frecuencia.
-Power: La potencia en la banda Alpha. Un valor más alto podría sugerir un estado de relajación o atención sostenida.
-Min y Max Value: Los valores mínimo y máximo en la banda Alpha. Proporcionan información sobre la variabilidad de la señal en esta banda.
-Mean y Median: El valor medio y la mediana en la banda Alpha. Pueden dar una indicación de la tendencia central de la señal.
+- RMS: La raíz cuadrada media indica la amplitud promedio de la señal en la banda Alpha. Un valor más alto podría relacionarse con un estado de relajación.
+- Amplitude: La diferencia entre los valores máximo y mínimo en la banda Alpha. Puede indicar la magnitud de las fluctuaciones en esta banda.
+- Area: La integral de la señal en la banda Alpha. Representa la acumulación total de la señal en esta frecuencia.
+- Power: La potencia en la banda Alpha. Un valor más alto podría sugerir un estado de relajación o atención sostenida.
+- Min y Max Value: Los valores mínimo y máximo en la banda Alpha. Proporcionan información sobre la variabilidad de la señal en esta banda.
+- Mean y Median: El valor medio y la mediana en la banda Alpha. Pueden dar una indicación de la tendencia central de la señal.
 
 4. Beta:
 
-RMS: La raíz cuadrada media indica la amplitud promedio de la señal en la banda Beta. Un valor más alto podría relacionarse con estados de alerta o procesos cognitivos.
-Amplitude: La diferencia entre los valores máximo y mínimo en la banda Beta. Puede indicar la magnitud de las fluctuaciones en esta banda.
-Area: La integral de la señal en la banda Beta. Representa la acumulación total de la señal en esta frecuencia.
-Power: La potencia en la banda Beta. Un valor más alto podría sugerir una mayor actividad cerebral asociada con estados de alerta y procesos cognitivos.
-Min y Max Value: Los valores mínimo y máximo en la banda Beta. Proporcionan información sobre la variabilidad de la señal en esta banda.
-Mean y Median: El valor medio y la mediana en la banda Beta. Pueden dar una indicación de la tendencia central de la señal.
+- RMS: La raíz cuadrada media indica la amplitud promedio de la señal en la banda Beta. Un valor más alto podría relacionarse con estados de alerta o procesos cognitivos.
+- Amplitude: La diferencia entre los valores máximo y mínimo en la banda Beta. Puede indicar la magnitud de las fluctuaciones en esta banda.
+- Area: La integral de la señal en la banda Beta. Representa la acumulación total de la señal en esta frecuencia.
+- Power: La potencia en la banda Beta. Un valor más alto podría sugerir una mayor actividad cerebral asociada con estados de alerta y procesos cognitivos.
+- Min y Max Value: Los valores mínimo y máximo en la banda Beta. Proporcionan información sobre la variabilidad de la señal en esta banda.
+- Mean y Median: El valor medio y la mediana en la banda Beta. Pueden dar una indicación de la tendencia central de la señal.
 
 Asimismo, se tuvieron en cuenta las siguientes consideraciones:
 - Se destaca de que el filtrado utilizado pese a que mostro mejorias, podría mejorarse aun mas dado a que se pueden utilizar tecnicas de enventanado para reducir los efectos secundarios no deseados, como las fugas espectrales, que pueden ocurrir al analizar segmentos finitos de una señal continua.
