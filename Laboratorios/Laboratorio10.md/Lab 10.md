@@ -32,10 +32,13 @@ Existen diferentes técnicas de extracción de características tales como anál
 5. Se analizaron las señales mediante las gráficas para visualizar el comportamiento de acuerdo a la actividad mental.
 
 # Resultados
-Con el propósito de aislar las bandas de interés asociadas a la señal de electroencefalograma (EEG), se llevó a cabo un proceso de filtrado utilizando frecuencias de corte correspondientes a cada una de las bandas características. En este contexto, se emplearon exclusivamente filtros pasabanda, ajustados con las frecuencias de corte distintivas de cada ritmo de EEG. Una vez concluido el proceso de adquisición y filtrado de las señales, se evidenciaron cambios significativos, como se observa en la figura 1, en relación con las diversas bandas que conforman la señal EEG. En consecuencia, se procedió a la extracción de las características de cada señal, resultando en los siguientes valores para las respectivas señales:
+Con el propósito de aislar las bandas de interés asociadas a la señal de electroencefalograma (EEG), se llevó a cabo un proceso de filtrado utilizando frecuencias de corte correspondientes a cada una de las bandas características. En este contexto, se emplearon exclusivamente filtros pasabanda, ajustados con las frecuencias de corte distintivas de cada ritmo de EEG. Una vez concluido el proceso de adquisición y filtrado de las señales, se evidenciaron cambios significativos, como se observa en la figura 1, en relación con las diversas bandas que conforman la señal EEG. 
 
 ![Alt text](<Imagenes/señaleseegfiltradas.png>) 
    Figura 1. Señales filtradas
+
+Una vez finalizado el procesamiento de cada señal,se procedió a la extracción de las características de cada señal, resultando en los siguientes valores para las respectivas señales:
+
 1. Delta
 - RMS (Delta): 83.07800683288704
 - Amplitude (Delta): 649.8057934174266
@@ -74,7 +77,46 @@ Con el propósito de aislar las bandas de interés asociadas a la señal de elec
 - Median (Beta): 0.012361999371375285
 
 # Discusiones
-- Se tiene en cuenta de que el filtrado utilizado pese a que mostro mejorias, podría mejorarse aun mas dado a que se pueden utilizar tecnicas de enventanado para reducir los efectos secundarios no deseados, como las fugas espectrales, que pueden ocurrir al analizar segmentos finitos de una señal continua.
+A modo de interpretar los resultados, resulta pertinente poder analizarlos de manera independiente, de lo anterior se llegaron a los siguientes analisis.
+
+1. Delta:
+
+RMS (Root Mean Square): La raíz cuadrada media indica la amplitud promedio de la señal en la banda Delta. Un valor alto podría sugerir una mayor actividad en el sueño profundo.
+Amplitude: La amplitud representa la diferencia entre los valores máximo y mínimo en la banda Delta. Puede indicar la magnitud de las fluctuaciones en esta banda.
+Area: La integral de la señal en la banda Delta. Un valor negativo puede deberse a la predominancia de valores negativos.
+Power: La potencia en la banda Delta, que refleja la cantidad total de energía en esa frecuencia. Un valor alto puede relacionarse con una mayor actividad cerebral durante el sueño profundo.
+Min y Max Value: Los valores mínimo y máximo en la banda Delta. Proporcionan información sobre la variabilidad de la señal en esta banda.
+Mean y Median: El valor medio y la mediana en la banda Delta. Pueden dar una indicación de la tendencia central de la señal.
+
+2. Theta:
+
+RMS: La raíz cuadrada media indica la amplitud promedio de la señal en la banda Theta. Puede relacionarse con la actividad cerebral durante la relajación.
+Amplitude: La diferencia entre los valores máximo y mínimo en la banda Theta. Puede indicar la magnitud de las fluctuaciones en esta banda.
+Area: La integral de la señal en la banda Theta. Representa la acumulación total de la señal en esta frecuencia.
+Power: La potencia en la banda Theta. Un valor alto podría relacionarse con la actividad cerebral durante procesos de memoria.
+Min y Max Value: Los valores mínimo y máximo en la banda Theta. Proporcionan información sobre la variabilidad de la señal en esta banda.
+Mean y Median: El valor medio y la mediana en la banda Theta. Pueden dar una indicación de la tendencia central de la señal.
+
+3. Alpha:
+
+RMS: La raíz cuadrada media indica la amplitud promedio de la señal en la banda Alpha. Un valor más alto podría relacionarse con un estado de relajación.
+Amplitude: La diferencia entre los valores máximo y mínimo en la banda Alpha. Puede indicar la magnitud de las fluctuaciones en esta banda.
+Area: La integral de la señal en la banda Alpha. Representa la acumulación total de la señal en esta frecuencia.
+Power: La potencia en la banda Alpha. Un valor más alto podría sugerir un estado de relajación o atención sostenida.
+Min y Max Value: Los valores mínimo y máximo en la banda Alpha. Proporcionan información sobre la variabilidad de la señal en esta banda.
+Mean y Median: El valor medio y la mediana en la banda Alpha. Pueden dar una indicación de la tendencia central de la señal.
+
+4. Beta:
+
+RMS: La raíz cuadrada media indica la amplitud promedio de la señal en la banda Beta. Un valor más alto podría relacionarse con estados de alerta o procesos cognitivos.
+Amplitude: La diferencia entre los valores máximo y mínimo en la banda Beta. Puede indicar la magnitud de las fluctuaciones en esta banda.
+Area: La integral de la señal en la banda Beta. Representa la acumulación total de la señal en esta frecuencia.
+Power: La potencia en la banda Beta. Un valor más alto podría sugerir una mayor actividad cerebral asociada con estados de alerta y procesos cognitivos.
+Min y Max Value: Los valores mínimo y máximo en la banda Beta. Proporcionan información sobre la variabilidad de la señal en esta banda.
+Mean y Median: El valor medio y la mediana en la banda Beta. Pueden dar una indicación de la tendencia central de la señal.
+
+Asimismo, se tuvieron en cuenta las siguientes consideraciones:
+- Se destaca de que el filtrado utilizado pese a que mostro mejorias, podría mejorarse aun mas dado a que se pueden utilizar tecnicas de enventanado para reducir los efectos secundarios no deseados, como las fugas espectrales, que pueden ocurrir al analizar segmentos finitos de una señal continua.
 - Por otro lado, dado a que este laboratorio se enfoco principalmente en evaluar los resultado de las caracteristicas obtenidas de cada banda especifica de una señal electroencefalografica no se consideró utilizar o realizar un analisis de espectro sobre cada una de las bandas una vez finalizada su procesamiento. Cabe destacar que este tipo de análisis podría resultar altamente beneficioso al examinar y verificar efectivamente si la señal filtrada corresponde y opera dentro de la banda característica que se pretende analizar, ya sea Delta, Theta, Alpha, entre otras.
 # Conclusiones
 - La extracción de característica permiten reconocer el tipo de actividad cerebral que realiza la persona, por lo que su aplicación para dispositivos biomédicos como el control de prótesis de extremidad superior puede ser útil.
