@@ -34,7 +34,7 @@ Existen diferentes técnicas de extracción de características tales como anál
 # Resultados
 Con el propósito de aislar las bandas de interés asociadas a la señal de electroencefalograma (EEG), se llevó a cabo un proceso de filtrado utilizando frecuencias de corte correspondientes a cada una de las bandas características. En este contexto, se emplearon exclusivamente filtros pasabanda, ajustados con las frecuencias de corte distintivas de cada ritmo de EEG. Una vez concluido el proceso de adquisición y filtrado de las señales, se evidenciaron cambios significativos, como se observa en la figura 1, en relación con las diversas bandas que conforman la señal EEG. En consecuencia, se procedió a la extracción de las características de cada señal, resultando en los siguientes valores para las respectivas señales:
 
-![Alt text](<Imágenes/Tipos de filtro/IIR.PNG>) 
+![Alt text](<Imagenes/señaleseegfiltradas.png>) 
    Figura 1. Señales filtradas
 1. Delta
 - RMS (Delta): 83.07800683288704
