@@ -32,7 +32,43 @@ Existen diferentes técnicas de extracción de características tales como anál
 5. Se analizaron las señales mediante las gráficas para visualizar el comportamiento de acuerdo a la actividad mental.
 
 # Resultados y discusión
+Con el propósito de aislar las bandas de interés asociadas a la señal de electroencefalograma (EEG), se llevó a cabo un proceso de filtrado utilizando frecuencias de corte correspondientes a cada una de las bandas características. En este contexto, se emplearon exclusivamente filtros pasabanda, ajustados con las frecuencias de corte distintivas de cada ritmo de EEG. Una vez concluido el proceso de adquisición y filtrado de las señales, se evidenciaron cambios significativos en relación con las diversas bandas que conforman la señal EEG. En consecuencia, se procedió a la extracción de las características de cada señal, resultando en los siguientes valores para las respectivas señales:
 
+- RMS (Delta): 83.07800683288704
+- Amplitude (Delta): 649.8057934174266
+- Area (Delta): -40985.155483688
+- Power (Delta): 6901.955219325225
+- Min Value (Delta): -335.2340339356023
+- Max Value (Delta): 314.57175948182424
+- Mean (Delta): -1.8235840284690013
+- Median (Delta): -1.364009604115558
+
+- RMS (Theta): 127.07103286093329
+- Amplitude (Theta): 920.4630236153996
+- Area (Theta): 8330.01862148968
+- Power (Theta): 16147.047392344388
+- Min Value (Theta): -449.48051099149006
+- Max Value (Theta): 470.98251262390954
+- Mean (Theta): 0.3747293767099355
+- Median (Theta): -0.012287626898799838
+
+- RMS (Alpha): 101.50370298080828
+- Amplitude (Alpha): 1044.983747396972
+- Area (Alpha): 4831.293784882604
+- Power (Alpha): 10303.001718816147
+- Min Value (Alpha): -490.52193531571174
+- Max Value (Alpha): 554.4618120812601
+- Mean (Alpha): 0.21255353686886283
+- Median (Alpha): 0.04107527284608937
+
+- RMS (Beta): 66.52904510954
+- Amplitude (Beta): 661.7179740760821
+- Area (Beta): 2210.628060269558
+- Power (Beta): 4426.113843187208
+- Min Value (Beta): -346.54132461972534
+- Max Value (Beta): 315.1766494563567
+- Mean (Beta): 0.09781222166618311
+- Median (Beta): 0.012361999371375285
 
 # Conclusiones
 - La extracción de característica permiten reconocer el tipo de actividad cerebral que realiza la persona, por lo que su aplicación para dispositivos biomédicos como el control de prótesis de extremidad superior puede ser útil.
