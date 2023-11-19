@@ -27,6 +27,8 @@ Lorem Lorem
 # Discusiones
 Lorem Lorem.
 
+# Conclusiones
+Lorem Lorem.
 
 # Bibliografía
 [1] Medina, B., Sierra, J. E., & Barrios Ulloa, A. (2018). Extraction techniques of EEG signals characteristics in motion imagination for BCI systems. Espacios, 39(22), 36. https://www.revistaespacios.com/a18v39n22/a18v39n22p36.pdf
