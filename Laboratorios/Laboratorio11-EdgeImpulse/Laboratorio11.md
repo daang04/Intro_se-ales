@@ -34,7 +34,7 @@ Lorem Lorem
 Lorem Lorem.
 
 # Conclusiones
-Lorem Lorem.
+En conclusión, la integración de Edge Impulse para el procesamiento de señales EMG demostró ser eficaz en la extracción de características clave y la capacitación de modelos de clasificación. Este enfoque simplificado enriqueció la comprensión de patrones en señales EMG, destacando el potencial de Edge Impulse en aplicaciones de aprendizaje automático en el ámbito de la biomecánica.
 
 # Bibliografía
 [1] 
