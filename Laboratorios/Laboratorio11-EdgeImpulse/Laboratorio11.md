@@ -24,11 +24,25 @@ Para llevar a cabo este proceso, se utilizaron los siguientes materiales:
 # Metodología
 - La metodología seguida se centró en la extracción de características de las señales EMG utilizando la plataforma Edge Impulse. Primero, se llevó a cabo el proceso de extracción de características, centrándose en aspectos clave como RMS y media. Estas características se utilizaron para entrenar modelos de clasificación capaces de reconocer patrones en las señales EMG. El enfoque práctico se basó en la aplicación de conocimientos previos sobre procesamiento de señales y aprendizaje automático para lograr resultados efectivos en la clasificación de señales EMG.
 
+![primer](https://github.com/daang04/Intro_se-ales/assets/45319820/fd452017-5015-4096-ab19-03644f5d972c)
+<p style="text-align: center;">Figura 1. Adquisición de data en splits de 100ms</p>
+
 # Resultados
 Lorem Lorem 
 
-![sa_settings](https://github.com/daang04/Intro_se-ales/assets/45319820/a4a8892c-0ad4-40d5-bfa0-063a2dc1090b)
-   Figura 1. Parámetros seteados para el análisis
+![Alt text](<[imagen/sa_settings.png](https://github.com/daang04/Intro_se-ales/blob/7f425d37049a6928c351b2a3a4a4b98473273836/imagen/sa_settings.png)>) 
+<p style="text-align: center;">Figura 2. Parámetros seteados para el análisis</p>
+
+
+![sa_raw_data](https://github.com/daang04/Intro_se-ales/assets/45319820/bc1f0475-2df1-4683-8c36-a5afafe4e8ce)
+<p style="text-align: center;">Figura 3. Raw data ingresada</p>
+
+![parameter_sfeationes](https://github.com/daang04/Intro_se-ales/assets/45319820/2bf52cd5-58fa-4688-bc43-136d8aedbb63)}
+<p style="text-align: center;">Figura 4. Spectral Features para la raw data</p>
+
+![sa_sp_after](https://github.com/daang04/Intro_se-ales/assets/45319820/ac61437a-9c29-4118-99da-ab24a130611e)
+<p style="text-align: center;">Figura 1. Spectral Faeatures para la data procesada</p>
+
 
 # Discusiones
 Lorem Lorem.
