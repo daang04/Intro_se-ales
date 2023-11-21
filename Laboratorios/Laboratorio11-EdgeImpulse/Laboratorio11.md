@@ -44,18 +44,21 @@ Se observó lo siguiente:
 
 
 # Discusiones
-Lorem Lorem.
+La Transformada Rápida de Fourier (FFT) resultó ser un enfoque altamente efectivo en el análisis de señales EMG, permitiendo una clara visualización de la distribución de energía en diversas bandas de frecuencia presentes en estas señales. Su capacidad para identificar patrones frecuenciales específicos facilitó la revelación de componentes espectrales cruciales, siendo vital para discernir cambios significativos en la actividad muscular y extraer características relevantes para aplicaciones médicas y de control. La elección de la FFT sobre los wavelets se sustentó en su simplicidad y eficiencia para resaltar patrones de frecuencia relevantes en las señales EMG, aunque los wavelets, con su habilidad para representar ambas dimensiones temporal y frecuencial, siguen siendo valiosos en otros contextos donde se requiera un análisis más detallado de las señales.
+
+Es esencial resaltar que la selección entre la FFT y los wavelets depende de las particularidades de las señales EMG y los objetivos de la aplicación. Aunque la FFT demostró su eficacia en este estudio específico, los wavelets mantienen su utilidad en escenarios que demandan un análisis exhaustivo en ambos dominios, temporal y frecuencial.
+
+
 
 # Conclusiones
 Se puede apreciar que la integración de Edge Impulse para el procesamiento de señales EMG demostró ser eficaz en la extracción de características clave y la capacitación de modelos de clasificación. Este enfoque simplificado enriqueció la comprensión de patrones en señales EMG, destacando el potencial de Edge Impulse en aplicaciones de aprendizaje automático en el ámbito de la biomecánica.
 
 # Bibliografía
-[1] 
 
-[2] Medina, B., Sierra, J. E., & Barrios Ulloa, A. (2018). Extraction techniques of EEG signals characteristics in motion imagination for BCI systems. Espacios, 39(22), 36. https://www.revistaespacios.com/a18v39n22/a18v39n22p36.pdf
+[1] Medina, B., Sierra, J. E., & Barrios Ulloa, A. (2018). Extraction techniques of EEG signals characteristics in motion imagination for BCI systems. Espacios, 39(22), 36. https://www.revistaespacios.com/a18v39n22/a18v39n22p36.pdf
 
-[3] Makowski, D., Pham, T., Lau, Z. J., Brammer, J. C., Lespinasse, F., Pham, H.,
+[2] Makowski, D., Pham, T., Lau, Z. J., Brammer, J. C., Lespinasse, F., Pham, H.,
 Schölzel, C., & Chen, S. A. (2021). NeuroKit2: A Python toolbox for neurophysiological signal processing.
 Behavior Research Methods, 53(4), 1689–1696. https://doi.org/10.3758/s13428-020-01516-y
 
-[4] Puertas Martínez, P. (2018). Estimación de Estados Cognitivos en Base a Ondas Cerebrales: Aplicación Práctica con Redes Neuronales. Universidad Politécnica de Madrid
+[3] Puertas Martínez, P. (2018). Estimación de Estados Cognitivos en Base a Ondas Cerebrales: Aplicación Práctica con Redes Neuronales. Universidad Politécnica de Madrid
