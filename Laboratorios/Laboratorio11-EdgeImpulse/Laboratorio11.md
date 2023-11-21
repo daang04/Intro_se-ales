@@ -27,8 +27,8 @@ Para llevar a cabo este proceso, se utilizaron los siguientes materiales:
 # Resultados
 Lorem Lorem 
 
-![Alt text](<Imagenes/señaleseegfiltradas.png>) 
-   Figura 1. Señales filtradas
+![Alt text](<imagen/sa_settings.png>) 
+   Figura 1. Parámetros seteados para el análisis
 
 # Discusiones
 Lorem Lorem.
