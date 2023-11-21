@@ -44,10 +44,10 @@ Se observó lo siguiente:
 
 
 # Discusiones
+
 La Transformada Rápida de Fourier (FFT) resultó ser un enfoque altamente efectivo en el análisis de señales EMG, permitiendo una clara visualización de la distribución de energía en diversas bandas de frecuencia presentes en estas señales. Su capacidad para identificar patrones frecuenciales específicos facilitó la revelación de componentes espectrales cruciales, siendo vital para discernir cambios significativos en la actividad muscular y extraer características relevantes para aplicaciones médicas y de control. La elección de la FFT sobre los wavelets se sustentó en su simplicidad y eficiencia para resaltar patrones de frecuencia relevantes en las señales EMG, aunque los wavelets, con su habilidad para representar ambas dimensiones temporal y frecuencial, siguen siendo valiosos en otros contextos donde se requiera un análisis más detallado de las señales.
 
 Es esencial resaltar que la selección entre la FFT y los wavelets depende de las particularidades de las señales EMG y los objetivos de la aplicación. Aunque la FFT demostró su eficacia en este estudio específico, los wavelets mantienen su utilidad en escenarios que demandan un análisis exhaustivo en ambos dominios, temporal y frecuencial.
-
 
 
 # Conclusiones
