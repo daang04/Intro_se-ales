@@ -27,7 +27,7 @@ Para llevar a cabo este proceso, se utilizaron los siguientes materiales:
 # Resultados
 Lorem Lorem 
 
-![Alt text](<imagen/sa_settings.png>) 
+![Alt text](<[imagen/sa_settings.png](https://github.com/daang04/Intro_se-ales/blob/7f425d37049a6928c351b2a3a4a4b98473273836/imagen/sa_settings.png)>) 
    Figura 1. Parámetros seteados para el análisis
 
 # Discusiones
