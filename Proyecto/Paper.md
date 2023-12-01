@@ -124,7 +124,21 @@ p < 0.001, lo cual conduce al rechazo de la hipótesis nula. Este resultado sugi
 **Tabla 5. Resultados de la prueba de Wilcoxon**
 
 ## Conclusiones
-- Se evidencio estadísticamente que existe una diferencia significativa entre pacientes en rehabilitación después de una lesión de ligamento cruzado anterior y los sanos.
-- Se puede evaluar el estado de salud de un paciente en rehabilitación con la técnica de electromiografía mediante la extracción de características seleccionadas.
+-El procesamiento de señales EMG representa una fase crucial para garantizar la fiabilidad y la interpretación precisa de los datos. Asimismo, el uso de técnicas de procesamiento de señales contribuye significativamente a la calidad de la información recopilada, facilitando una evaluación más precisa del rendimiento muscular y la actividad eléctrica durante la rehabilitación.
+-La extracción de características permite caracterizar las señales EMG, brindando información sobre el rendimiento muscular en diferentes condiciones de salud, por lo que es útil como base cuantitativa para el análisis estadístico. En ese sentido, la calidad y precisión de las características extraídas influyen en la fiabilidad del análisis estadístico.
+-Se evidenció estadísticamente que existe una diferencia significativa entre pacientes en rehabilitación después de una lesión de ligamento cruzado anterior (ACL) y los pacientes sin lesión de ACL.
+-Se puede evaluar cuantitativamente el estado de salud de un paciente en rehabilitación con la técnica de electromiografía mediante la extracción de características seleccionadas. 
 
-## Referencias 
+## REFERENCIAS
+
+[1] H. Kim, J. Lee, y J. Kim, «Electromyography-signal-based muscle fatigue assessment for knee rehabilitation monitoring systems», Biomed Eng Lett, vol. 8, n.o 4, pp. 345-353, nov. 2018, doi: 10.1007/s13534-018-0078-z.
+[2 ]Hernández Mendo, A. (2011). Biofeedback electromiográfico en la rehabilitación de lesiones de rodilla. Estudio de dos casos en futbolistas profesionales. Cuadernos de Psicología del Deporte, 11(2), 71–80. Recuperado a partir de https://revistas.um.es/cpd/article/view/133821
+[3] Linderman SE, Scarborough DM, Aspenleiter R, Stein HS, Berkson EM. Assessing Quadriceps Muscle Contraction Using a Novel Surface Mechanomyography Sensor during Two Neuromuscular Control Screening Tasks. Sensors (Basel). 2023 Jun 29;23(13):6031. doi: 10.3390/s23136031. PMID: 37447881; PMCID: PMC10346542.
+[4] NeuroTrac Simplex EMG Biofeedback (2023) BIOFEEDBACK NEUROFEEDBACK THERAPY. Disponible en: https://biofeedback-neurofeedback-therapy.com/product/neurotrac-simplex-emg-biofeedback/
+[5] Technology - Myoton. (2023, January 3). Myoton. https://www.myoton.com/technology/
+[6] M. A. Villarroya Aparicio, “Electromiografía cinesiológica”, Rehabil. (Madr., Internet), vol. 39, núm. 6, pp. 255–264, 2005.
+
+
+
+
+
